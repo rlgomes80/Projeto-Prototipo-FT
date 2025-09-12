@@ -1,0 +1,31 @@
+# Define o arquivo do modelo base local
+# Certifique-se que este arquivo está na mesma pasta do Modelfile
+FROM ./novo_modelo.gguf
+
+# Define o template de chat/instrução específico para a família de modelos Phi-3
+# Este formato é essencial para o modelo funcionar como esperado.
+TEMPLATE """{{- if .System }}<|system|>
+{{ .System }}<|end|>
+{{- end }}<|user|>
+{{ .Prompt }}<|end|><|assistant|>"""
+
+# --- PARÂMETROS DE INFERÊNCIA ---
+
+# Define a janela de contexto em tokens (4k = 4096)
+# Baseado no modelo pai "Phi-3-mini-4k-instruct".
+# Isso determina a quantidade de texto (prompt + resposta) que o modelo pode "lembrar" em uma conversa.
+PARAMETER num_ctx 4096
+
+# Define os tokens que indicam ao modelo para parar de gerar texto.
+# O token "<|end|>" é o principal sinal de parada para o Phi-3.
+PARAMETER stop "<|end|>"
+PARAMETER stop "<|user|>"
+PARAMETER stop "<|assistant|>"
+
+# (Opcional) Ajuste os parâmetros de amostragem para controlar a criatividade vs. precisão
+# PARAMETER temperature 0.7
+# PARAMETER top_k 40
+# PARAMETER top_p 0.9
+
+# (Opcional) Define um prompt de sistema padrão.
+# SYSTEM """Você é o Phi-3, um assistente de IA prestativo e conciso."""

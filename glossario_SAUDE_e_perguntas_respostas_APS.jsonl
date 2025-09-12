@@ -1,0 +1,1320 @@
+{"input": "AF", "output": "Autorização de Fornecimento"}
+{"input": "Almox", "output": "Almoxarifado"}
+{"input": "ATC", "output": "Anticoagulante"}
+{"input": "ATD", "output": "Atendimento"}
+{"input": "AAC", "output": "AGENDAMENTO E MARCAÇÃO DE CONSULTAS"}
+{"input": "ABS", "output": "SISTEMA DE BANCO DE SANGUE"}
+{"input": "AEL", "output": "SISTEMAS DE EXAMES E LAUDOS"}
+{"input": "AES", "output": "SISTEMA DE ESCALA DE SERVIDORES"}
+{"input": "AFA", "output": "SISTEMA DE FARMÁCIA"}
+{"input": "AHD", "output": "HOSPITAL DIA"}
+{"input": "AIH", "output": "Autorização de Internação Hospitalar"}
+{"input": "AIN", "output": "SISTEMA DE INTERNAÇÃO"}
+{"input": "AIP", "output": "IDENTIFICAÇÃO DE PACIENTES"}
+{"input": "ANU", "output": "SISTEMA DE NUTRIÇÃO"}
+{"input": "BC", "output": "Bloco Cirúrgico"}
+{"input": "CV", "output": "Convite"}
+{"input": "CC", "output": "Concorrência"}
+{"input": "CP", "output": "Complemento"}
+{"input": "CI", "output": "Comunicação Interna"}
+{"input": "CO", "output": "Centro Obstétrico"}
+{"input": "CCA", "output": "Centro Cirúrgico Ambulatorial"}
+{"input": "CID", "output": "Classificação (ou código) Internacional de Doenças"}
+{"input": "CPR", "output": "SISTEMA DE CONTROLE DE PROJETOS"}
+{"input": "CSE", "output": "SISTEMA DE SEGURANÇA"}
+{"input": "CTI", "output": "Centro de Terapia Intensiva"}
+{"input": "CIG", "output": "Cirurgia Geral"}
+{"input": "Canc", "output": "Cancelado"}
+{"input": "CERIH", "output": "Código Especial de Registro para Internação Hospitalar"}
+{"input": "DL", "output": "Dispensa de Licitação"}
+{"input": "DN", "output": "Declaração de Nascimento"}
+{"input": "DO", "output": "Declaração de Óbito"}
+{"input": "DP", "output": "Delegacia de Polícia"}
+{"input": "DML", "output": "Departamento Médico Legal"}
+{"input": "Emp", "output": "Empenho"}
+{"input": "ECE", "output": "SISTEMA DE CONFERÊNCIA ELETRÔNICA DA ENFERMAGEM"}
+{"input": "EPE", "output": "PRESCRIÇÃO DE ENFERMAGEM"}
+{"input": "Entg", "output": "Entrega"}
+{"input": "Estq", "output": "Estoque"}
+{"input": "FC", "output": "Fator de Conversão"}
+{"input": "FAT", "output": "Faturamento"}
+{"input": "FCC", "output": "SISTEMA CENTRO DE CUSTOS"}
+{"input": "FCP", "output": "SISTEMA DE CONTAS A PAGAR"}
+{"input": "FCU", "output": "SISTEMA DE CUSTOS"}
+{"input": "FFC", "output": "FATURAMENTO CONVÊNIOS"}
+{"input": "FSO", "output": "SISTEMA DE ORÇAMENTO"}
+{"input": "Forn", "output": "Fornecedor"}
+{"input": "GEN", "output": "SISTEMAS GENÉRICOS - TODOS DO BULL"}
+{"input": "GIN", "output": "Ginecologia"}
+{"input": "IG", "output": "Informações Gerenciais - É o sistema de BI (Business Intelligence) do HCPA"}
+{"input": "IAF", "output": "Item da Autorização de Fornecimento"}
+{"input": "Inex", "output": "Inexibilidade de Licitação"}
+{"input": "HCPA", "output": "Hospital de Clinicas de Porto Alegre"}
+{"input": "HD", "output": "Hospital Dia"}
+{"input": "Lct", "output": "Licitação"}
+{"input": "Mat", "output": "Material"}
+{"input": "MAM", "output": "AMBULATORIOS"}
+{"input": "MBC", "output": "BLOCO CIRÚRGICO"}
+{"input": "MCI", "output": "SISTEMA DE CONTROLE DE INFECÇÃO"}
+{"input": "MCO", "output": "SISTEMA DA PERINATOLOGIA (CO + NEONATOLOGIA)"}
+{"input": "MPA", "output": "SISTEMA DE PROTOCOLOS"}
+{"input": "MPM", "output": "PRESCRIÇÃO MÉDICA"}
+{"input": "MPT", "output": "PROCEDIMENTOS TERAPÊUTICOS"}
+{"input": "ΜΕΙ", "output": "Medicina Interna"}
+{"input": "Mdto", "output": "Medicamento"}
+{"input": "Mvto", "output": "Movimento"}
+{"input": "Nro", "output": "Número"}
+{"input": "NEO", "output": "Neonatologia"}
+{"input": "Obs", "output": "Observação"}
+{"input": "ORTO", "output": "Ortopedia"}
+{"input": "PDT", "output": "PROCEDIMENTOS DIAGNÓSTICOS TERAPÊUTICOS"}
+{"input": "PAC", "output": "Processo Administrativo de Compra (Módulo Compras)"}
+{"input": "Parc", "output": "Parcela"}
+{"input": "Plan", "output": "Planejado"}
+{"input": "Qtd", "output": "Quantidade"}
+{"input": "RN", "output": "Recém Nascido"}
+{"input": "RM", "output": "Requisição de Material"}
+{"input": "RCO", "output": "Recipiente de Coleta"}
+{"input": "RAP", "output": "ADMINISTRAÇÃO DE PESSOAL"}
+{"input": "RAR", "output": "APOIO RESIDENTES"}
+{"input": "SC", "output": "Solicitação de Compra"}
+{"input": "SS", "output": "Solicitação de Serviço"}
+{"input": "SO", "output": "Sala de Observação"}
+{"input": "SR", "output": "Sala de Recuperação"}
+{"input": "Sic", "output": "Solicitação"}
+{"input": "Ser", "output": "Serviço"}
+{"input": "SOE", "output": "Solicitação de Exame"}
+{"input": "SCE", "output": "SISTEMA DE CONTROLE DE ESTOQUE"}
+{"input": "SCO", "output": "SISTEMA DE COMPRAS"}
+{"input": "SND", "output": "Serviço de Nutrição e Dietética"}
+{"input": "SSM", "output": "Sinais e sintomas médicos"}
+{"input": "SID", "output": "AIDS-SIDA"}
+{"input": "SADT", "output": "Serviço Auxiliar de Diagnóstico e Terapia"}
+{"input": "SAMIS", "output": "Serviço de Arquivo Médico e Informações de Saúde"}
+{"input": "TR", "output": "Termo de Responsabilidade"}
+{"input": "Tram Int", "output": "Tramite Interno"}
+{"input": "Und", "output": "Unidade"}
+{"input": "Unf", "output": "Unidade Funcional"}
+{"input": "UMM", "output": "Unidade Medida Médicas"}
+{"input": "UCM", "output": "Unidade de Cuidados Minimos (leito para recuperação de até 72 horas)"}
+{"input": "UTI", "output": "Unidade de Terapia Intensiva"}
+{"input": "UTIP", "output": "UTI Pediátrica"}
+{"input": "Vir", "output": "Valor"}
+{"input": "Vin", "output": "Vinculo"}
+{"input": "VPA", "output": "Vice-presidência Administrativa"}
+{"input": "VPM", "output": "Vice-presidência Médica"}
+{"input": "O que significa 'N' na coluna ORIGEM da tabela AGH_ATENDIMENTO?", "output": "Nascimento (atendimento do recém-nascido que está bem, ou seja, não teve complicação e portanto não precisou internar)"}
+{"input": "Qual o significado de 'A' na coluna ORIGEM da tabela AGH_ATENDIMENTO?", "output": "Ambulatório (consultas ambulatoriais)"}
+{"input": "O que o '1' representa na tabela AGH_ATENDIMENTO - coluna ORIGEM?", "output": "Internação"}
+{"input": "O que significa o código 'U' na tabela de origem de atendimento?", "output": "Urgência (<24 horas na emergência - observação)"}
+{"input": "O que significa 'X' na tabela AGH_ATENDIMENTO?", "output": "Externo (pacientes que vem realizar exames no HCPA porém nao foram atendidos no HCPA ex, pacientes de convênios)"}
+{"input": "Qual o significado de 'D' na coluna ORIGEM?", "output": "Doador (foi descontinuado)"}
+{"input": "O que significa a origem 'H' na tabela de atendimento?", "output": "Hospital Dia (foi descontinuado)"}
+{"input": "O que representa a origem 'C' na tabela de atendimento do HCPA?", "output": "Cirurgia"}
+{"input": "O que é 'BO'?", "output": "Boletim de Ocorrência"}
+{"input": "O que é 'BA'?", "output": "Boletim de Atendimento"}
+{"input": "Na tabela MPT PROTOCOLO_CUIDADOS, o que significa 'C' em Ind TIPO?", "output": "Cuidado"}
+{"input": "Na tabela MPT PROTOCOLO_CUIDADOS, o que significa 'P' em Ind TIPO?", "output": "Parâmetro"}
+{"input": "Na tabela MTX_CRIOPRESERVACAO_CPH, o que é 'H'?", "output": "HES da criopreservação"}
+{"input": "Na tabela MTX_CRIOPRESERVACAO_CPH, o que é 'A'?", "output": "Albumina da criopreservação"}
+{"input": "Na tabela MTX_CRIOPRESERVACAO_CPH, o que é 'D'?", "output": "Dimetilsulfóxido da criopreservação"}
+{"input": "Na tabela MTX_CRIOPRESERVACAO_CPH, o que é 'M'?", "output": "Método"}
+{"input": "Na tabela MTX_CRIOPRESERVACAO_CPH, o que é 'B'?", "output": "Marca da Bolsa utilizada conforme o material"}
+{"input": "O que é PACS?", "output": "Picture Archiving and Communication System, ou Sistema de Comunicação e Arquivamento de Imagens, é uma plataforma para arquivamento de imagens médicas."}
+{"input": "Para que serve um sistema CIS?", "output": "O CIS (Clinical Information System) é um sistema utilizado para gerenciar informações clínicas de pacientes, como diagnósticos, exames de laboratório e prescrições médicas. Ele é usado para acompanhar o histórico médico do paciente."}
+{"input": "O que faz um LIS?", "output": "O LIS (Laboratory Information System) é um software para gerenciar dados e informações em laboratórios de análises clínicas, permitindo o armazenamento de dados de pacientes e o compartilhamento de resultados."}
+{"input": "Qual a função do RIS?", "output": "O RIS (Radiology Information System) é um sistema de informação em radiologia focado na organização de processos de uma clínica, como o agendamento de exames e o controle financeiro do centro de imagem."}
+{"input": "O que é um HIS?", "output": "O HIS (Hospital Information System) é um sistema de informações hospitalares que gerencia o cadastro de pacientes, procedimentos e custos. Ele quantifica leitos, consultas e exames, integrando a comunicação interna e externa de um centro de saúde."}
+{"input": "Qual a principal funcionalidade do PACS?", "output": "As principais funcionalidades do PACS incluem: 1) Imagens em alta resolução; 2) Distribuição de resultados facilitada por e-mail, nuvem e aplicativos; 3) Segurança com login e senha, sem risco de perda de exames; 4) Redução de custos por meio da integração de vários sistemas."}
+{"input": "Como o PACS ajuda na distribuição de resultados de exames?", "output": "O PACS facilita a distribuição de resultados, que ficam prontos em menos tempo e podem ser enviados por e-mail, nuvem ou aplicativos como WhatsApp."}
+{"input": "Quais são as funcionalidades de segurança do PACS?", "output": "O PACS requer dados de login e senha para acesso e não corre risco de extravio ou perda dos exames, dificultando futuros atendimentos e diagnósticos."}
+{"input": "Quais os benefícios de um HIS para um hospital?", "output": "O HIS permite quantificar o número de leitos, consultas, internações e exames, integrando a comunicação interna e externa do centro de saúde."}
+{"input": "O que é o sistema AGENDAMENTO E MARCAÇÃO DE CONSULTAS?", "output": "AGENDAMENTO E MARCAÇÃO DE CONSULTAS é o significado da sigla AAC."}
+{"input": "O que é o SISTEMA DE BANCO DE SANGUE?", "output": "SISTEMA DE BANCO DE SANGUE é o significado da sigla ABS."}
+{"input": "O que é o SISTEMA DE ESCALA DE SERVIDORES?", "output": "SISTEMA DE ESCALA DE SERVIDORES é o significado da sigla AES."}
+{"input": "O que é o SISTEMA DE FARMÁCIA?", "output": "SISTEMA DE FARMÁCIA é o significado da sigla AFA."}
+{"input": "O que é a Autorização de Internação Hospitalar?", "output": "A Autorização de Internação Hospitalar é o significado da sigla AIH."}
+{"input": "O que é o SISTEMA DE INTERNAÇÃO?", "output": "SISTEMA DE INTERNAÇÃO é o significado da sigla AIN."}
+{"input": "O que significa 'BOLETIM DE OCORRÊNCIA'?", "output": "BOLETIM DE OCORRÊNCIA é o significado da sigla BO."}
+{"input": "O que é 'BOLETIM DE ATENDIMENTO'?", "output": "BOLETIM DE ATENDIMENTO é o significado da sigla BA."}
+{"input": "O que significa 'Centro Obstétrico'?", "output": "Centro Obstétrico é o significado da sigla CO."}
+{"input": "O que é 'Centro Cirúrgico Ambulatorial'?", "output": "Centro Cirúrgico Ambulatorial é o significado da sigla CCA."}
+{"input": "O que é 'Declaração de Nascimento'?", "output": "Declaração de Nascimento é o significado da sigla DN."}
+{"input": "O que significa 'FATURAMENTO CONVÊNIOS'?", "output": "FATURAMENTO CONVÊNIOS é o significado da sigla FFC."}
+{"input": "O que é 'SISTEMA DE ORÇAMENTO'?", "output": "SISTEMA DE ORÇAMENTO é o significado da sigla FSO."}
+{"input": "O que significa 'INFORMAÇÕES GERENCIAIS'?", "output": "INFORMAÇÕES GERENCIAIS é o significado da sigla IG."}
+{"input": "O que é 'Medicina Interna'?", "output": "Medicina Interna é o significado da sigla ΜΕΙ."}
+{"input": "O que é 'PROCEDIMENTOS TERAPÊUTICOS'?", "output": "PROCEDIMENTOS TERAPÊUTICOS é o significado da sigla MPT."}
+{"input": "O que é 'Requisição de Material'?", "output": "Requisição de Material é o significado da sigla RM."}
+{"input": "O que é 'Recipiente de Coleta'?", "output": "Recipiente de Coleta é o significado da sigla RCO."}
+{"input": "O que é 'ADMINISTRAÇÃO DE PESSOAL'?", "output": "ADMINISTRAÇÃO DE PESSOAL é o significado da sigla RAP."}
+{"input": "O que é 'SISTEMA DE CONTROLE DE ESTOQUE'?", "output": "SISTEMA DE CONTROLE DE ESTOQUE é o significado da sigla SCE."}
+{"input": "O que significa 'SINAIS E SINTOMAS MÉDICOS'?", "output": "SINAIS E SINTOMAS MÉDICOS é o significado da sigla SSM."}
+{"input": "O que é 'Serviço Auxiliar de Diagnóstico e Terapia'?", "output": "Serviço Auxiliar de Diagnóstico e Terapia é o significado da sigla SADT."}
+{"input": "O que é 'Serviço de Arquivo Médico e Informações de Saúde'?", "output": "Serviço de Arquivo Médico e Informações de Saúde é o significado da sigla SAMIS."}
+{"input": "O que é 'Termo de Responsabilidade'?", "output": "Termo de Responsabilidade é o significado da sigla TR."}
+{"input": "O que é 'Unidade de Cuidados Minimos'?", "output": "Unidade de Cuidados Minimos é o significado da sigla UCM."}
+{"input": "O que é 'UTI Pediátrica'?", "output": "UTI Pediátrica é o significado da sigla UTIP."}
+{"input": "O que é 'Vice-presidência Administrativa'?", "output": "Vice-presidência Administrativa é o significado da sigla VPA."}
+{"input": "O que é 'Vice-presidência Médica'?", "output": "Vice-presidência Médica é o significado da sigla VPM."}
+{"input": "Qual o significado da sigla ABS?", "output": "ABS significa SISTEMA DE BANCO DE SANGUE."}
+{"input": "Qual o significado da sigla AFA?", "output": "AFA significa SISTEMA DE FARMÁCIA."}
+{"input": "Qual o significado da sigla AAC?", "output": "AAC significa AGENDAMENTO E MARCAÇÃO DE CONSULTAS."}
+{"input": "Qual o significado da sigla AIH?", "output": "AIH significa Autorização de Internação Hospitalar."}
+{"input": "Qual o significado da sigla CTI?", "output": "CTI significa Centro de Terapia Intensiva."}
+{"input": "Qual o significado da sigla CID?", "output": "CID significa Classificação (ou código) Internacional de Doenças."}
+{"input": "Qual o significado da sigla ECE?", "output": "ECE significa SISTEMA DE CONFERÊNCIA ELETRÔNICA DA ENFERMAGEM."}
+{"input": "Qual o significado da sigla LIS?", "output": "LIS significa Laboratory Information System, que é um sistema de informação de laboratório."}
+{"input": "Qual o significado da sigla HIS?", "output": "HIS significa Hospital Information System, que é um sistema informatizado de gestão hospitalar."}
+{"input": "Qual o significado da sigla RIS?", "output": "RIS significa Radiology Information System, que é um sistema de informação de radiologia."}
+{"input": "Qual o significado da sigla PACS?", "output": "PACS significa Picture Archiving and Communication System, que é um sistema de comunicação e arquivamento de imagens médicas."}
+{"input": "Qual o significado da sigla CIS?", "output": "CIS significa Clinical Information System, que é um sistema de informação clínica."}
+{"input": "O que significa o termo 'Recém Nascido'?", "output": "Recém Nascido é o significado da sigla RN."}
+{"input": "O que significa o termo 'Boletim de Ocorrência'?", "output": "Boletim de Ocorrência é o significado da sigla BO."}
+{"input": "O que significa o termo 'Declaração de Óbito'?", "output": "Declaração de Óbito é o significado da sigla DO."}
+{"input": "O que significa 'Solicitação de Compra'?", "output": "Solicitação de Compra é o significado da sigla SC."}
+{"input": "O que significa 'Unidade de Terapia Intensiva'?", "output": "Unidade de Terapia Intensiva é o significado da sigla UTI."}
+{"input": "O que significa 'Hospital de Clínicas de Porto Alegre'?", "output": "Hospital de Clínicas de Porto Alegre é o significado da sigla HCPA."}
+{"input": "O que é 'Fator de Conversão'?", "output": "Fator de Conversão é o significado da sigla FC."}
+{"input": "O que é 'SISTEMA DE CONTAS A PAGAR'?", "output": "SISTEMA DE CONTAS A PAGAR é o significado da sigla FCP."}
+{"input": "O que é 'SISTEMA DE CONTROLE DE PROJETOS'?", "output": "SISTEMA DE CONTROLE DE PROJETOS é o significado da sigla CPR."}
+{"input": "O que é 'Delegacia de Polícia'?", "output": "Delegacia de Polícia é o significado da sigla DP."}
+{"input": "O que é 'Ginecologia'?", "output": "Ginecologia é o significado da sigla GIN."}
+{"input": "O que é 'Ortopedia'?", "output": "Ortopedia é o significado da sigla ORTO."}
+{"input": "O que é 'Neonatologia'?", "output": "Neonatologia é o significado da sigla NEO."}
+{"input": "O que é 'Sala de Recuperação'?", "output": "Sala de Recuperação é o significado da sigla SR."}
+{"input": "O que é 'Sala de Observação'?", "output": "Sala de Observação é o significado da sigla SO."}
+{"input": "O que é 'Pedido de Material'?", "output": "Pedido de Material é o significado da sigla PM."}
+{"input": "O que é 'Sistema de Comunicação e Arquivamento de Imagens'?", "output": "Sistema de Comunicação e Arquivamento de Imagens é o significado da sigla PACS."}
+{"input": "O que é 'Sistema de Informação Clínica'?", "output": "Sistema de Informação Clínica é o significado da sigla CIS."}
+{"input": "O que é 'Sistema de Informação de Laboratório'?", "output": "Sistema de Informação de Laboratório é o significado da sigla LIS."}
+{"input": "O que é 'Sistema de Informação de Radiologia'?", "output": "Sistema de Informação de Radiologia é o significado da sigla RIS."}
+{"input": "O que é 'Sistema Informatizado de Gestão Hospitalar'?", "output": "Sistema Informatizado de Gestão Hospitalar é o significado da sigla HIS."}
+{"input": "O que é 'Atenção Primária à Saúde'?", "output": "Atenção Primária à Saúde (APS) é o primeiro nível de atenção e porta de entrada preferencial do Sistema Único de Saúde (SUS), no Brasil."}
+{"input": "Qual a sigla para 'hipertensão arterial sistêmica'?", "output": "A sigla para hipertensão arterial sistêmica é HAS."}
+{"input": "O que é 'doença renal crônica'?", "output": "Doença renal crônica (DRC) é a lesão renal com duração de pelo menos três meses."}
+{"input": "O que é um 'inibidor da enzima conversora de angiotensina'?", "output": "Um inibidor da enzima conversora de angiotensina (IECA) é uma classe de medicamentos usados para tratar hipertensão e insuficiência cardíaca."}
+{"input": "O que é um PCDT?", "output": "PCDT significa Protocolo Clínico e Diretrizes Terapêuticas."}
+{"input": "Como agendar uma consulta?", "output": "O agendamento e marcação de consultas é o significado da sigla AAC."}
+{"input": "O que significa 'Concorrência'?", "output": "Concorrência é o significado da sigla CC."}
+{"input": "O que é 'Comunicação Interna'?", "output": "Comunicação Interna é o significado da sigla CI."}
+{"input": "O que é 'Empenho'?", "output": "Empenho é o significado da sigla Emp."}
+{"input": "O que é 'Estoque'?", "output": "Estoque é o significado da sigla Estq."}
+{"input": "O que é 'Faturamento'?", "output": "Faturamento é o significado da sigla FAT."}
+{"input": "O que é 'Fornecedor'?", "output": "Fornecedor é o significado da sigla Forn."}
+{"input": "O que é 'Licitação'?", "output": "Licitação é o significado da sigla Lct."}
+{"input": "O que é 'Material'?", "output": "Material é o significado da sigla Mat."}
+{"input": "O que é 'Medicamento'?", "output": "Medicamento é o significado da sigla Mdto."}
+{"input": "O que é 'Movimento'?", "output": "Movimento é o significado da sigla Mvto."}
+{"input": "O que é 'Número'?", "output": "Número é o significado da sigla Nro."}
+{"input": "O que é 'Observação'?", "output": "Observação é o significado da sigla Obs."}
+{"input": "O que é 'Parcela'?", "output": "Parcela é o significado da sigla Parc."}
+{"input": "O que é 'Planejado'?", "output": "Planejado é o significado da sigla Plan."}
+{"input": "O que é 'Quantidade'?", "output": "Quantidade é o significado da sigla Qtd."}
+{"input": "O que é 'Solicitação'?", "output": "Solicitação é o significado da sigla Sic."}
+{"input": "O que é 'Serviço'?", "output": "Serviço é o significado da sigla Ser."}
+{"input": "O que é 'Unidade'?", "output": "Unidade é o significado da sigla Und."}
+{"input": "O que é 'Unidade Funcional'?", "output": "Unidade Funcional é o significado da sigla Unf."}
+{"input": "O que é 'Valor'?", "output": "Valor é o significado da sigla Vir."}
+{"input": "O que é 'Vínculo'?", "output": "Vínculo é o significado da sigla Vin."}
+{"input": "Qual a definição de Agendamento e Marcação de Consultas?", "output": "AAC é a sigla para Agendamento e Marcação de Consultas."}
+{"input": "Qual a definição de Hospital Dia?", "output": "AHD é a sigla para Hospital Dia."}
+{"input": "Qual a definição de Hospital de Clínicas de Porto Alegre?", "output": "HCPA é a sigla para Hospital de Clínicas de Porto Alegre."}
+{"input": "Qual a definição de Classificação (ou código) Internacional de Doenças?", "output": "CID é a sigla para Classificação (ou código) Internacional de Doenças."}
+{"input": "Qual a definição de Autorização de Internação Hospitalar?", "output": "AIH é a sigla para Autorização de Internação Hospitalar."}
+{"input": "Qual a definição de Centro de Terapia Intensiva?", "output": "CTI é a sigla para Centro de Terapia Intensiva."}
+{"input": "Qual a definição de Declaração de Nascimento?", "output": "DN é a sigla para Declaração de Nascimento."}
+{"input": "Qual a definição de Faturamento?", "output": "FAT é a sigla para Faturamento."}
+{"input": "Qual a definição de Fornecedor?", "output": "Forn é a sigla para Fornecedor."}
+{"input": "Qual a definição de Cirurgia Geral?", "output": "CIG é a sigla para Cirurgia Geral."}
+{"input": "Qual a definição de Material?", "output": "Mat é a sigla para Material."}
+{"input": "Qual a definição de Medicamento?", "output": "Mdto é a sigla para Medicamento."}
+{"input": "Qual a definição de Neonatologia?", "output": "NEO é a sigla para Neonatologia."}
+{"input": "Qual a definição de Ortopedia?", "output": "ORTO é a sigla para Ortopedia."}
+{"input": "Qual a definição de Recém Nascido?", "output": "RN é a sigla para Recém Nascido."}
+{"input": "Qual a definição de Requisição de Material?", "output": "RM é a sigla para Requisição de Material."}
+{"input": "Qual a definição de Sala de Observação?", "output": "SO é a sigla para Sala de Observação."}
+{"input": "Qual a definição de Solicitação de Serviço?", "output": "SS é a sigla para Solicitação de Serviço."}
+{"input": "Qual a definição de Unidade de Terapia Intensiva?", "output": "UTI é a sigla para Unidade de Terapia Intensiva."}
+{"input": "Qual a definição de Unidade Funcional?", "output": "Unf é a sigla para Unidade Funcional."}
+{"input": "Qual a definição de Valor?", "output": "Vir é a sigla para Valor."}
+{"input": "Qual a definição de Vínculo?", "output": "Vin é a sigla para Vínculo."}
+{"input": "Qual a definição de Procedimentos Diagnósticos Terapêuticos?", "output": "PDT é a sigla para Procedimentos Diagnósticos Terapêuticos."}
+{"input": "Qual a definição de Sistema de Controle de Estoque?", "output": "SCE é a sigla para Sistema de Controle de Estoque."}
+{"input": "Qual a definição de Sistema de Compras?", "output": "SCO é a sigla para Sistema de Compras."}
+{"input": "Qual a definição de Sistema de Nutrição e Dietética?", "output": "SND é a sigla para Serviço de Nutrição e Dietética."}
+{"input": "Qual a definição de Sistema de Arquivo Médico e Informações de Saúde?", "output": "SAMIS é a sigla para Serviço de Arquivo Médico e Informações de Saúde."}
+{"input": "O que significa 'AAC'?", "output": "AAC significa Agendamento e Marcação de Consultas."}
+{"input": "O que significa 'ABS'?", "output": "ABS significa Sistema de Banco de Sangue."}
+{"input": "O que significa 'AEL'?", "output": "AEL significa Sistemas de Exames e Laudos."}
+{"input": "O que significa 'AES'?", "output": "AES significa Sistema de Escala de Servidores."}
+{"input": "O que significa 'AFA'?", "output": "AFA significa Sistema de Farmácia."}
+{"input": "O que significa 'AHD'?", "output": "AHD significa Hospital Dia."}
+{"input": "O que significa 'AIH'?", "output": "AIH significa Autorização de Internação Hospitalar."}
+{"input": "O que significa 'AIN'?", "output": "AIN significa Sistema de Internação."}
+{"input": "O que significa 'AIP'?", "output": "AIP significa Identificação de Pacientes."}
+{"input": "O que significa 'ANU'?", "output": "ANU significa Sistema de Nutrição."}
+{"input": "O que significa 'BO'?", "output": "BO significa Boletim de Ocorrência."}
+{"input": "O que significa 'BA'?", "output": "BA significa Boletim de Atendimento."}
+{"input": "O que significa 'BC'?", "output": "BC significa Bloco Cirúrgico."}
+{"input": "O que significa 'CV'?", "output": "CV significa Convite."}
+{"input": "O que significa 'CC'?", "output": "CC significa Concorrência."}
+{"input": "O que significa 'CP'?", "output": "CP significa Complemento."}
+{"input": "O que significa 'CI'?", "output": "CI significa Comunicação Interna."}
+{"input": "O que significa 'CO'?", "output": "CO significa Centro Obstétrico."}
+{"input": "O que significa 'CCA'?", "output": "CCA significa Centro Cirúrgico Ambulatorial."}
+{"input": "O que significa 'CID'?", "output": "CID significa Classificação (ou código) Internacional de Doenças."}
+{"input": "O que significa 'CPR'?", "output": "CPR significa Sistema de Controle de Projetos."}
+{"input": "O que significa 'CSE'?", "output": "CSE significa Sistema de Segurança."}
+{"input": "O que significa 'CTI'?", "output": "CTI significa Centro de Terapia Intensiva."}
+{"input": "O que significa 'CIG'?", "output": "CIG significa Cirurgia Geral."}
+{"input": "O que significa 'Canc'?", "output": "Canc significa Cancelado."}
+{"input": "O que significa 'CERIH'?", "output": "CERIH significa Código Especial de Registro para Internação Hospitalar."}
+{"input": "O que significa 'DL'?", "output": "DL significa Dispensa de Licitação."}
+{"input": "O que significa 'DN'?", "output": "DN significa Declaração de Nascimento."}
+{"input": "O que significa 'DO'?", "output": "DO significa Declaração de Óbito."}
+{"input": "O que significa 'DP'?", "output": "DP significa Delegacia de Polícia."}
+{"input": "O que significa 'DML'?", "output": "DML significa Departamento Médico Legal."}
+{"input": "O que significa 'Emp'?", "output": "Emp significa Empenho."}
+{"input": "O que significa 'ECE'?", "output": "ECE significa Sistema de Conferência Eletrônica da Enfermagem."}
+{"input": "O que significa 'EPE'?", "output": "EPE significa Prescrição de Enfermagem."}
+{"input": "O que significa 'Entg'?", "output": "Entg significa Entrega."}
+{"input": "O que significa 'Estq'?", "output": "Estq significa Estoque."}
+{"input": "O que significa 'FC'?", "output": "FC significa Fator de Conversão."}
+{"input": "O que significa 'FAT'?", "output": "FAT significa Faturamento."}
+{"input": "O que significa 'FCC'?", "output": "FCC significa Sistema Centro de Custos."}
+{"input": "O que significa 'FCP'?", "output": "FCP significa Sistema de Contas a Pagar."}
+{"input": "O que significa 'FCU'?", "output": "FCU significa Sistema de Custos."}
+{"input": "O que significa 'FFC'?", "output": "FFC significa Faturamento Convênios."}
+{"input": "O que significa 'FSO'?", "output": "FSO significa Sistema de Orçamento."}
+{"input": "O que significa 'Forn'?", "output": "Forn significa Fornecedor."}
+{"input": "O que significa 'GEN'?", "output": "GEN significa Sistemas Genéricos - Todos do Bull."}
+{"input": "O que significa 'GIN'?", "output": "GIN significa Ginecologia."}
+{"input": "O que significa 'IG'?", "output": "IG significa Informações Gerenciais."}
+{"input": "O que significa 'IAF'?", "output": "IAF significa Item da Autorização de Fornecimento."}
+{"input": "O que significa 'Inex'?", "output": "Inex significa Inexibilidade de Licitação."}
+{"input": "O que significa 'HCPA'?", "output": "HCPA significa Hospital de Clínicas de Porto Alegre."}
+{"input": "O que significa 'HD'?", "output": "HD significa Hospital Dia."}
+{"input": "O que significa 'Lct'?", "output": "Lct significa Licitação."}
+{"input": "O que significa 'Mat'?", "output": "Mat significa Material."}
+{"input": "O que significa 'MAM'?", "output": "MAM significa Ambulatórios."}
+{"input": "O que significa 'MBC'?", "output": "MBC significa Bloco Cirúrgico."}
+{"input": "O que significa 'MCI'?", "output": "MCI significa Sistema de Controle de Infecção."}
+{"input": "O que significa 'MCO'?", "output": "MCO significa Sistema da Perinatologia (CO + Neonatologia)."}
+{"input": "O que significa 'MPA'?", "output": "MPA significa Sistema de Protocolos."}
+{"input": "O que significa 'MPM'?", "output": "MPM significa Prescrição Médica."}
+{"input": "O que significa 'MPT'?", "output": "MPT significa Procedimentos Terapêuticos."}
+{"input": "O que significa 'ΜΕΙ'?", "output": "ΜΕΙ significa Medicina Interna."}
+{"input": "O que significa 'Mdto'?", "output": "Mdto significa Medicamento."}
+{"input": "O que significa 'Mvto'?", "output": "Mvto significa Movimento."}
+{"input": "O que significa 'Nro'?", "output": "Nro significa Número."}
+{"input": "O que significa 'NEO'?", "output": "NEO significa Neonatologia."}
+{"input": "O que significa 'Obs'?", "output": "Obs significa Observação."}
+{"input": "O que significa 'ORTO'?", "output": "ORTO significa Ortopedia."}
+{"input": "O que significa 'PDT'?", "output": "PDT significa Procedimentos Diagnósticos Terapêuticos."}
+{"input": "O que significa 'PAC'?", "output": "PAC significa Processo Administrativo de Compra."}
+{"input": "O que significa 'Parc'?", "output": "Parc significa Parcela."}
+{"input": "O que significa 'Plan'?", "output": "Plan significa Planejado."}
+{"input": "O que significa 'Qtd'?", "output": "Qtd significa Quantidade."}
+{"input": "O que significa 'RN'?", "output": "RN significa Recém Nascido."}
+{"input": "O que significa 'RM'?", "output": "RM significa Requisição de Material."}
+{"input": "O que significa 'RCO'?", "output": "RCO significa Recipiente de Coleta."}
+{"input": "O que significa 'RAP'?", "output": "RAP significa Administração de Pessoal."}
+{"input": "O que significa 'RAR'?", "output": "RAR significa Apoio Residentes."}
+{"input": "O que significa 'SC'?", "output": "SC significa Solicitação de Compra."}
+{"input": "O que significa 'SS'?", "output": "SS significa Solicitação de Serviço."}
+{"input": "O que significa 'SO'?", "output": "SO significa Sala de Observação."}
+{"input": "O que significa 'SR'?", "output": "SR significa Sala de Recuperação."}
+{"input": "O que significa 'Sic'?", "output": "Sic significa Solicitação."}
+{"input": "O que significa 'Ser'?", "output": "Ser significa Serviço."}
+{"input": "O que significa 'SOE'?", "output": "SOE significa Solicitação de Exame."}
+{"input": "O que significa 'SCE'?", "output": "SCE significa Sistema de Controle de Estoque."}
+{"input": "O que significa 'SCO'?", "output": "SCO significa Sistema de Compras."}
+{"input": "O que significa 'SND'?", "output": "SND significa Serviço de Nutrição e Dietética."}
+{"input": "O que significa 'SSM'?", "output": "SSM significa Sinais e Sintomas Médicos."}
+{"input": "O que significa 'SID'?", "output": "SID significa AIDS-SIDA."}
+{"input": "O que significa 'SADT'?", "output": "SADT significa Serviço Auxiliar de Diagnóstico e Terapia."}
+{"input": "O que significa 'SAMIS'?", "output": "SAMIS significa Serviço de Arquivo Médico e Informações de Saúde."}
+{"input": "O que significa 'TR'?", "output": "TR significa Termo de Responsabilidade."}
+{"input": "O que significa 'Tram Int'?", "output": "Tram Int significa Tramite Interno."}
+{"input": "O que significa 'Und'?", "output": "Und significa Unidade."}
+{"input": "O que significa 'Unf'?", "output": "Unf significa Unidade Funcional."}
+{"input": "O que significa 'UMM'?", "output": "UMM significa Unidade Medida Médicas."}
+{"input": "O que significa 'UCM'?", "output": "UCM significa Unidade de Cuidados Minimos."}
+{"input": "O que significa 'UTI'?", "output": "UTI significa Unidade de Terapia Intensiva."}
+{"input": "O que significa 'UTIP'?", "output": "UTIP significa UTI Pediátrica."}
+{"input": "O que significa 'Vir'?", "output": "Vir significa Valor."}
+{"input": "O que significa 'Vin'?", "output": "Vin significa Vínculo."}
+{"input": "O que significa 'VPA'?", "output": "VPA significa Vice-presidência Administrativa."}
+{"input": "O que significa 'VPM'?", "output": "VPM significa Vice-presidência Médica."}
+{"input": "Qual a sigla para 'Autorização de Fornecimento'?", "output": "A sigla é AF."}
+{"input": "Qual a sigla para 'Almoxarifado'?", "output": "A sigla é Almox."}
+{"input": "Qual a sigla para 'Anticoagulante'?", "output": "A sigla é ATC."}
+{"input": "Qual a sigla para 'Atendimento'?", "output": "A sigla é ATD."}
+{"input": "Qual a sigla para 'AGENDAMENTO E MARCAÇÃO DE CONSULTAS'?", "output": "A sigla é AAC."}
+{"input": "Qual a sigla para 'SISTEMA DE BANCO DE SANGUE'?", "output": "A sigla é ABS."}
+{"input": "Qual a sigla para 'SISTEMAS DE EXAMES E LAUDOS'?", "output": "A sigla é AEL."}
+{"input": "Qual a sigla para 'SISTEMA DE ESCALA DE SERVIDORES'?", "output": "A sigla é AES."}
+{"input": "Qual a sigla para 'SISTEMA DE FARMÁCIA'?", "output": "A sigla é AFA."}
+{"input": "Qual a sigla para 'HOSPITAL DIA'?", "output": "A sigla é AHD."}
+{"input": "Qual a sigla para 'Autorização de Internação Hospitalar'?", "output": "A sigla é AIH."}
+{"input": "Qual a sigla para 'SISTEMA DE INTERNAÇÃO'?", "output": "A sigla é AIN."}
+{"input": "Qual a sigla para 'IDENTIFICAÇÃO DE PACIENTES'?", "output": "A sigla é AIP."}
+{"input": "Qual a sigla para 'SISTEMA DE NUTRIÇÃO'?", "output": "A sigla é ANU."}
+{"input": "Qual a sigla para 'Boletim de Ocorrência'?", "output": "A sigla é BO."}
+{"input": "Qual a sigla para 'Boletim de Atendimento'?", "output": "A sigla é BA."}
+{"input": "Qual a sigla para 'Bloco Cirúrgico'?", "output": "A sigla é BC."}
+{"input": "Qual a sigla para 'Convite'?", "output": "A sigla é CV."}
+{"input": "Qual a sigla para 'Concorrência'?", "output": "A sigla é CC."}
+{"input": "Qual a sigla para 'Complemento'?", "output": "A sigla é CP."}
+{"input": "Qual a sigla para 'Comunicação Interna'?", "output": "A sigla é CI."}
+{"input": "Qual a sigla para 'Centro Obstétrico'?", "output": "A sigla é CO."}
+{"input": "Qual a sigla para 'Centro Cirúrgico Ambulatorial'?", "output": "A sigla é CCA."}
+{"input": "Qual a sigla para 'Classificação (ou código) Internacional de Doenças'?", "output": "A sigla é CID."}
+{"input": "Qual a sigla para 'SISTEMA DE CONTROLE DE PROJETOS'?", "output": "A sigla é CPR."}
+{"input": "Qual a sigla para 'SISTEMA DE SEGURANÇA'?", "output": "A sigla é CSE."}
+{"input": "Qual a sigla para 'Centro de Terapia Intensiva'?", "output": "A sigla é CTI."}
+{"input": "Qual a sigla para 'Cirurgia Geral'?", "output": "A sigla é CIG."}
+{"input": "Qual a sigla para 'Cancelado'?", "output": "A sigla é Canc."}
+{"input": "Qual a sigla para 'Código Especial de Registro para Internação Hospitalar'?", "output": "A sigla é CERIH."}
+{"input": "Qual a sigla para 'Dispensa de Licitação'?", "output": "A sigla é DL."}
+{"input": "Qual a sigla para 'Declaração de Nascimento'?", "output": "A sigla é DN."}
+{"input": "Qual a sigla para 'Declaração de Óbito'?", "output": "A sigla é DO."}
+{"input": "Qual a sigla para 'Delegacia de Polícia'?", "output": "A sigla é DP."}
+{"input": "Qual a sigla para 'Departamento Médico Legal'?", "output": "A sigla é DML."}
+{"input": "Qual a sigla para 'Empenho'?", "output": "A sigla é Emp."}
+{"input": "Qual a sigla para 'SISTEMA DE CONFERÊNCIA ELETRÔNICA DA ENFERMAGEM'?", "output": "A sigla é ECE."}
+{"input": "Qual a sigla para 'PRESCRIÇÃO DE ENFERMAGEM'?", "output": "A sigla é EPE."}
+{"input": "Qual a sigla para 'Entrega'?", "output": "A sigla é Entg."}
+{"input": "Qual a sigla para 'Estoque'?", "output": "A sigla é Estq."}
+{"input": "Qual a sigla para 'Fator de Conversão'?", "output": "A sigla é FC."}
+{"input": "Qual a sigla para 'Faturamento'?", "output": "A sigla é FAT."}
+{"input": "Qual a sigla para 'SISTEMA CENTRO DE CUSTOS'?", "output": "A sigla é FCC."}
+{"input": "Qual a sigla para 'SISTEMA DE CONTAS A PAGAR'?", "output": "A sigla é FCP."}
+{"input": "Qual a sigla para 'SISTEMA DE CUSTOS'?", "output": "A sigla é FCU."}
+{"input": "Qual a sigla para 'FATURAMENTO CONVÊNIOS'?", "output": "A sigla é FFC."}
+{"input": "Qual a sigla para 'SISTEMA DE ORÇAMENTO'?", "output": "A sigla é FSO."}
+{"input": "Qual a sigla para 'Fornecedor'?", "output": "A sigla é Forn."}
+{"input": "Qual a sigla para 'SISTEMAS GENÉRICOS - TODOS DO BULL'?", "output": "A sigla é GEN."}
+{"input": "Qual a sigla para 'Ginecologia'?", "output": "A sigla é GIN."}
+{"input": "Qual a sigla para 'Informações Gerenciais'?", "output": "A sigla é IG."}
+{"input": "Qual a sigla para 'Item da Autorização de Fornecimento'?", "output": "A sigla é IAF."}
+{"input": "Qual a sigla para 'Inexibilidade de Licitação'?", "output": "A sigla é Inex."}
+{"input": "Qual a sigla para 'Hospital de Clinicas de Porto Alegre'?", "output": "A sigla é HCPA."}
+{"input": "Qual a sigla para 'Hospital Dia'?", "output": "A sigla é HD."}
+{"input": "Qual a sigla para 'Licitação'?", "output": "A sigla é Lct."}
+{"input": "Qual a sigla para 'Material'?", "output": "A sigla é Mat."}
+{"input": "Qual a sigla para 'AMBULATORIOS'?", "output": "A sigla é MAM."}
+{"input": "Qual a sigla para 'BLOCO CIRÚRGICO'?", "output": "A sigla é MBC."}
+{"input": "Qual a sigla para 'SISTEMA DE CONTROLE DE INFECÇÃO'?", "output": "A sigla é MCI."}
+{"input": "Qual a sigla para 'SISTEMA DA PERINATOLOGIA'?", "output": "A sigla é MCO."}
+{"input": "Qual a sigla para 'SISTEMA DE PROTOCOLOS'?", "output": "A sigla é MPA."}
+{"input": "Qual a sigla para 'PRESCRIÇÃO MÉDICA'?", "output": "A sigla é MPM."}
+{"input": "Qual a sigla para 'PROCEDIMENTOS TERAPÊUTICOS'?", "output": "A sigla é MPT."}
+{"input": "Qual a sigla para 'Medicina Interna'?", "output": "A sigla é ΜΕΙ."}
+{"input": "Qual a sigla para 'Medicamento'?", "output": "A sigla é Mdto."}
+{"input": "Qual a sigla para 'Movimento'?", "output": "A sigla é Mvto."}
+{"input": "Qual a sigla para 'Número'?", "output": "A sigla é Nro."}
+{"input": "Qual a sigla para 'Neonatologia'?", "output": "A sigla é NEO."}
+{"input": "Qual a sigla para 'Observação'?", "output": "A sigla é Obs."}
+{"input": "Qual a sigla para 'Ortopedia'?", "output": "A sigla é ORTO."}
+{"input": "Qual a sigla para 'PROCEDIMENTOS DIAGNÓSTICOS TERAPÊUTICOS'?", "output": "A sigla é PDT."}
+{"input": "Qual a sigla para 'Processo Administrativo de Compra'?", "output": "A sigla é PAC."}
+{"input": "Qual a sigla para 'Parcela'?", "output": "A sigla é Parc."}
+{"input": "Qual a sigla para 'Planejado'?", "output": "A sigla é Plan."}
+{"input": "Qual a sigla para 'Quantidade'?", "output": "A sigla é Qtd."}
+{"input": "Qual a sigla para 'Recém Nascido'?", "output": "A sigla é RN."}
+{"input": "Qual a sigla para 'Requisição de Material'?", "output": "A sigla é RM."}
+{"input": "Qual a sigla para 'Recipiente de Coleta'?", "output": "A sigla é RCO."}
+{"input": "Qual a sigla para 'ADMINISTRAÇÃO DE PESSOAL'?", "output": "A sigla é RAP."}
+{"input": "Qual a sigla para 'APOIO RESIDENTES'?", "output": "A sigla é RAR."}
+{"input": "Qual a sigla para 'Solicitação de Compra'?", "output": "A sigla é SC."}
+{"input": "Qual a sigla para 'Solicitação de Serviço'?", "output": "A sigla é SS."}
+{"input": "Qual a sigla para 'Sala de Observação'?", "output": "A sigla é SO."}
+{"input": "Qual a sigla para 'Sala de Recuperação'?", "output": "A sigla é SR."}
+{"input": "Qual a sigla para 'Solicitação'?", "output": "A sigla é Sic."}
+{"input": "Qual a sigla para 'Serviço'?", "output": "A sigla é Ser."}
+{"input": "Qual a sigla para 'Solicitação de Exame'?", "output": "A sigla é SOE."}
+{"input": "Qual a sigla para 'SISTEMA DE CONTROLE DE ESTOQUE'?", "output": "A sigla é SCE."}
+{"input": "Qual a sigla para 'SISTEMA DE COMPRAS'?", "output": "A sigla é SCO."}
+{"input": "Qual a sigla para 'Serviço de Nutrição e Dietética'?", "output": "A sigla é SND."}
+{"input": "Qual a sigla para 'Sinais e sintomas médicos'?", "output": "A sigla é SSM."}
+{"input": "Qual a sigla para 'AIDS-SIDA'?", "output": "A sigla é SID."}
+{"input": "Qual a sigla para 'Serviço Auxiliar de Diagnóstico e Terapia'?", "output": "A sigla é SADT."}
+{"input": "Qual a sigla para 'Serviço de Arquivo Médico e Informações de Saúde'?", "output": "A sigla é SAMIS."}
+{"input": "Qual a sigla para 'Termo de Responsabilidade'?", "output": "A sigla é TR."}
+{"input": "Qual a sigla para 'Tramite Interno'?", "output": "A sigla é Tram Int."}
+{"input": "Qual a sigla para 'Unidade'?", "output": "A sigla é Und."}
+{"input": "Qual a sigla para 'Unidade Funcional'?", "output": "A sigla é Unf."}
+{"input": "Qual a sigla para 'Unidade Medida Médicas'?", "output": "A sigla é UMM."}
+{"input": "Qual a sigla para 'Unidade de Cuidados Minimos'?", "output": "A sigla é UCM."}
+{"input": "Qual a sigla para 'Unidade de Terapia Intensiva'?", "output": "A sigla é UTI."}
+{"input": "Qual a sigla para 'UTI Pediátrica'?", "output": "A sigla é UTIP."}
+{"input": "Qual a sigla para 'Valor'?", "output": "A sigla é Vir."}
+{"input": "Qual a sigla para 'Vinculo'?", "output": "A sigla é Vin."}
+{"input": "Qual a sigla para 'Vice-presidência Administrativa'?", "output": "A sigla é VPA."}
+{"input": "Qual a sigla para 'Vice-presidência Médica'?", "output": "A sigla é VPM."}
+{"input": "Quais são as funcionalidades de um PACS?", "output": "O PACS oferece imagens em alta resolução, facilita a distribuição de resultados, garante a segurança dos dados e ajuda na redução de custos através da integração de sistemas."}
+{"input": "O que é um 'SISTEMA DE INFORMAÇÃO CLÍNICA'?", "output": "Um Sistema de Informação Clínica (CIS) é usado para gerenciar informações clínicas de pacientes, como diagnósticos e histórico médico."}
+{"input": "Como um 'SISTEMA DE INFORMAÇÃO DE LABORATÓRIO' auxilia na gestão?", "output": "Um Sistema de Informação de Laboratório (LIS) ajuda a armazenar dados de pacientes, compartilhar resultados e gerenciar a parte administrativa de um laboratório."}
+{"input": "O que um 'SISTEMA DE INFORMAÇÃO DE RADIOLOGIA' controla?", "output": "Um Sistema de Informação de Radiologia (RIS) foca na organização dos processos de uma clínica de radiologia, controlando o agendamento de exames e a gestão financeira."}
+{"input": "Como o 'SISTEMA INFORMATIZADO DE GESTÃO HOSPITALAR' integra a comunicação?", "output": "O Sistema Informatizado de Gestão Hospitalar (HIS) integra a comunicação interna e externa de um centro de saúde ao gerenciar dados de pacientes, procedimentos e custos."}
+{"input": "O que é um 'Boletim de Atendimento'?", "output": "BA é a sigla para Boletim de Atendimento."}
+{"input": "O que significa 'BO' em contexto de saúde?", "output": "BO significa Boletim de Ocorrência."}
+{"input": "O que é um 'Bloco Cirúrgico'?", "output": "BC é a sigla para Bloco Cirúrgico."}
+{"input": "O que significa 'CCA'?", "output": "CCA significa Centro Cirúrgico Ambulatorial."}
+{"input": "Qual a diferença entre LIS e RIS?", "output": "LIS (Laboratory Information System) gerencia dados em laboratórios de análises clínicas, enquanto RIS (Radiology Information System) foca na gestão de clínicas de radiologia."}
+{"input": "O que significa 'Tramite Interno'?", "output": "Tramite Interno é o significado da sigla Tram Int."}
+{"input": "Para que serve um 'Termo de Responsabilidade'?", "output": "Um Termo de Responsabilidade (TR) é um documento que formaliza a responsabilidade sobre algo ou alguém."}
+{"input": "O que é 'Unidade de Cuidados Mínimos'?", "output": "UCM é a sigla para Unidade de Cuidados Mínimos."}
+{"input": "Qual a sigla para 'Unidade de Terapia Intensiva Pediátrica'?", "output": "A sigla é UTIP."}
+{"input": "O que significa 'Vir'?", "output": "Vir significa Valor."}
+{"input": "O que significa 'Vin'?", "output": "Vin significa Vínculo."}
+{"input": "O que é uma 'Vice-presidência Administrativa'?", "output": "VPA é a sigla para Vice-presidência Administrativa."}
+{"input": "O que é uma 'Vice-presidência Médica'?", "output": "VPM é a sigla para Vice-presidência Médica."}
+{"input": "Qual a definição de 'AGENDAMENTO E MARCAÇÃO DE CONSULTAS'?", "output": "É um serviço de agendamento de consultas médicas, representado pela sigla AAC."}
+{"input": "Qual a definição de 'HOSPITAL DIA'?", "output": "Um Hospital Dia (AHD) é uma unidade de saúde que realiza procedimentos e tratamentos de curta duração."}
+{"input": "Qual a definição de 'Autorização de Internação Hospitalar'?", "output": "A Autorização de Internação Hospitalar (AIH) é um documento essencial para internações, tanto no setor público quanto no privado."}
+{"input": "O que significa 'Anu'?", "output": "Anu é a sigla para Sistema de Nutrição."}
+{"input": "O que é o sistema 'SISTEMA DE FARMÁCIA'?", "output": "O Sistema de Farmácia (AFA) é um sistema para gestão de medicamentos e insumos farmacêuticos."}
+{"input": "O que é 'SISTEMAS DE EXAMES E LAUDOS'?", "output": "AEL é a sigla para Sistemas de Exames e Laudos."}
+{"input": "O que é o 'SISTEMA DE BANCO DE SANGUE'?", "output": "ABS é a sigla para Sistema de Banco de Sangue."}
+{"input": "O que é o 'SISTEMA DE INTERNAÇÃO'?", "output": "AIN é a sigla para Sistema de Internação."}
+{"input": "O que é 'IDENTIFICAÇÃO DE PACIENTES'?", "output": "AIP é a sigla para Identificação de Pacientes."}
+{"input": "O que significa 'C' na coluna 'Ind TIPO'?", "output": "C significa Cuidado, na tabela MPT PROTOCOLO_CUIDADOS."}
+{"input": "O que significa 'P' na coluna 'Ind TIPO'?", "output": "P significa Parâmetro, na tabela MPT PROTOCOLO_CUIDADOS."}
+{"input": "O que significa 'A' na tabela de criopreservação?", "output": "A significa Albumina da criopreservação."}
+{"input": "O que significa 'D' na tabela de criopreservação?", "output": "D significa Dimetilsulfóxido da criopreservação."}
+{"input": "O que significa 'M' na tabela de criopreservação?", "output": "M significa Método."}
+{"input": "O que significa 'B' na tabela de criopreservação?", "output": "B significa Marca da Bolsa utilizada conforme o material."}
+{"input": "O que significa 'H' na tabela de criopreservação?", "output": "H significa HES da criopreservação."}
+{"input": "O que é um `CIS`?", "output": "Um Clinical Information System (CIS) gerencia informações clínicas, como diagnósticos e prescrições médicas."}
+{"input": "O que é `LIS`?", "output": "LIS (Laboratory Information System) é um software para gestão de dados em laboratórios de análises clínicas."}
+{"input": "O que é `RIS`?", "output": "RIS (Radiology Information System) é um sistema para organização de clínicas de radiologia, incluindo agendamento e controle financeiro."}
+{"input": "O que é `HIS`?", "output": "HIS (Hospital Information System) é um sistema de gestão que integra informações de pacientes, procedimentos e custos em um hospital."}
+{"input": "O que significa `U` na tabela AGH_ATENDIMENTO?", "output": "U representa Urgência, para atendimentos com menos de 24 horas na emergência."}
+{"input": "O que é um 'Processo Administrativo de Compra'?", "output": "PAC é a sigla para Processo Administrativo de Compra."}
+{"input": "O que significa `Solicitação de Exame`?", "output": "SOE é a sigla para Solicitação de Exame."}
+{"input": "O que é um `SISTEMA DE CONTROLE DE INFECÇÃO`?", "output": "MCI é a sigla para Sistema de Controle de Infecção."}
+{"input": "O que é `MAM`?", "output": "MAM é a sigla para Ambulatórios."}
+{"input": "O que significa `SADT`?", "output": "SADT significa Serviço Auxiliar de Diagnóstico e Terapia."}
+{"input": "O que é `SAMIS`?", "output": "SAMIS significa Serviço de Arquivo Médico e Informações de Saúde."}
+{"input": "O que significa `Unidade`?", "output": "Und é a sigla para Unidade."}
+{"input": "O que significa `Unidade Funcional`?", "output": "Unf é a sigla para Unidade Funcional."}
+{"input": "O que significa `UMM`?", "output": "UMM significa Unidade Medida Médicas."}
+{"input": "O que significa `UCM`?", "output": "UCM significa Unidade de Cuidados Minimos."}
+{"input": "O que significa `UTIP`?", "output": "UTIP significa UTI Pediátrica."}
+{"input": "O que significa `VPA`?", "output": "VPA significa Vice-presidência Administrativa."}
+{"input": "O que significa `VPM`?", "output": "VPM significa Vice-presidência Médica."}
+{"input": "Qual a sigla para `Autorização de Fornecimento`?", "output": "A sigla é AF."}
+{"input": "Qual a sigla para `Almoxarifado`?", "output": "A sigla é Almox."}
+{"input": "Qual a sigla para `Anticoagulante`?", "output": "A sigla é ATC."}
+{"input": "Qual a sigla para `Atendimento`?", "output": "A sigla é ATD."}
+{"input": "Qual a sigla para `AGENDAMENTO E MARCAÇÃO DE CONSULTAS`?", "output": "A sigla é AAC."}
+{"input": "Qual a sigla para `SISTEMA DE BANCO DE SANGUE`?", "output": "A sigla é ABS."}
+{"input": "Qual a sigla para `SISTEMAS DE EXAMES E LAUDOS`?", "output": "A sigla é AEL."}
+{"input": "Qual a sigla para `SISTEMA DE ESCALA DE SERVIDORES`?", "output": "A sigla é AES."}
+{"input": "Qual a sigla para `SISTEMA DE FARMÁCIA`?", "output": "A sigla é AFA."}
+{"input": "Qual a sigla para `HOSPITAL DIA`?", "output": "A sigla é AHD."}
+{"input": "Qual a sigla para `Autorização de Internação Hospitalar`?", "output": "A sigla é AIH."}
+{"input": "Qual a sigla para `SISTEMA DE INTERNAÇÃO`?", "output": "A sigla é AIN."}
+{"input": "Qual a sigla para `IDENTIFICAÇÃO DE PACIENTES`?", "output": "A sigla é AIP."}
+{"input": "Qual a sigla para `SISTEMA DE NUTRIÇÃO`?", "output": "A sigla é ANU."}
+{"input": "Qual a sigla para `Boletim de Ocorrência`?", "output": "A sigla é BO."}
+{"input": "Qual a sigla para `Boletim de Atendimento`?", "output": "A sigla é BA."}
+{"input": "Qual a sigla para `Bloco Cirúrgico`?", "output": "A sigla é BC."}
+{"input": "Qual a sigla para `Convite`?", "output": "A sigla é CV."}
+{"input": "Qual a sigla para `Concorrência`?", "output": "A sigla é CC."}
+{"input": "Qual a sigla para `Complemento`?", "output": "A sigla é CP."}
+{"input": "Qual a sigla para `Comunicação Interna`?", "output": "A sigla é CI."}
+{"input": "Qual a sigla para `Centro Obstétrico`?", "output": "A sigla é CO."}
+{"input": "Qual a sigla para `Centro Cirúrgico Ambulatorial`?", "output": "A sigla é CCA."}
+{"input": "Qual a sigla para `Classificação (ou código) Internacional de Doenças`?", "output": "A sigla é CID."}
+{"input": "Qual a sigla para `SISTEMA DE CONTROLE DE PROJETOS`?", "output": "A sigla é CPR."}
+{"input": "Qual a sigla para `SISTEMA DE SEGURANÇA`?", "output": "A sigla é CSE."}
+{"input": "Qual a sigla para `Centro de Terapia Intensiva`?", "output": "A sigla é CTI."}
+{"input": "Qual a sigla para `Cirurgia Geral`?", "output": "A sigla é CIG."}
+{"input": "Qual a sigla para `Cancelado`?", "output": "A sigla é Canc."}
+{"input": "Qual a sigla para `Código Especial de Registro para Internação Hospitalar`?", "output": "A sigla é CERIH."}
+{"input": "Qual a sigla para `Dispensa de Licitação`?", "output": "A sigla é DL."}
+{"input": "Qual a sigla para `Declaração de Nascimento`?", "output": "A sigla é DN."}
+{"input": "Qual a sigla para `Declaração de Óbito`?", "output": "A sigla é DO."}
+{"input": "Qual a sigla para `Delegacia de Polícia`?", "output": "A sigla é DP."}
+{"input": "Qual a sigla para `Departamento Médico Legal`?", "output": "A sigla é DML."}
+{"input": "Qual a sigla para `Empenho`?", "output": "A sigla é Emp."}
+{"input": "Qual a sigla para `SISTEMA DE CONFERÊNCIA ELETRÔNICA DA ENFERMAGEM`?", "output": "A sigla é ECE."}
+{"input": "Qual a sigla para `PRESCRIÇÃO DE ENFERMAGEM`?", "output": "A sigla é EPE."}
+{"input": "Qual a sigla para `Entrega`?", "output": "A sigla é Entg."}
+{"input": "Qual a sigla para `Estoque`?", "output": "A sigla é Estq."}
+{"input": "Qual a sigla para `Fator de Conversão`?", "output": "A sigla é FC."}
+{"input": "Qual a sigla para `Faturamento`?", "output": "A sigla é FAT."}
+{"input": "Qual a sigla para `SISTEMA CENTRO DE CUSTOS`?", "output": "A sigla é FCC."}
+{"input": "Qual a sigla para `SISTEMA DE CONTAS A PAGAR`?", "output": "A sigla é FCP."}
+{"input": "Qual a sigla para `SISTEMA DE CUSTOS`?", "output": "A sigla é FCU."}
+{"input": "Qual a sigla para `FATURAMENTO CONVÊNIOS`?", "output": "A sigla é FFC."}
+{"input": "Qual a sigla para `SISTEMA DE ORÇAMENTO`?", "output": "A sigla é FSO."}
+{"input": "Qual a sigla para `Fornecedor`?", "output": "A sigla é Forn."}
+{"input": "Qual a sigla para `SISTEMAS GENÉRICOS - TODOS DO BULL`?", "output": "A sigla é GEN."}
+{"input": "Qual a sigla para `Ginecologia`?", "output": "A sigla é GIN."}
+{"input": "Qual a sigla para `Informações Gerenciais`?", "output": "A sigla é IG."}
+{"input": "Qual a sigla para `Item da Autorização de Fornecimento`?", "output": "A sigla é IAF."}
+{"input": "Qual a sigla para `Inexibilidade de Licitação`?", "output": "A sigla é Inex."}
+{"input": "Qual a sigla para `Hospital de Clinicas de Porto Alegre`?", "output": "A sigla é HCPA."}
+{"input": "Qual a sigla para `Hospital Dia`?", "output": "A sigla é HD."}
+{"input": "Qual a sigla para `Licitação`?", "output": "A sigla é Lct."}
+{"input": "Qual a sigla para `Material`?", "output": "A sigla é Mat."}
+{"input": "Qual a sigla para `AMBULATORIOS`?", "output": "A sigla é MAM."}
+{"input": "Qual a sigla para `BLOCO CIRÚRGICO`?", "output": "A sigla é MBC."}
+{"input": "Qual a sigla para `SISTEMA DE CONTROLE DE INFECÇÃO`?", "output": "A sigla é MCI."}
+{"input": "Qual a sigla para `SISTEMA DA PERINATOLOGIA`?", "output": "A sigla é MCO."}
+{"input": "Qual a sigla para `SISTEMA DE PROTOCOLOS`?", "output": "A sigla é MPA."}
+{"input": "Qual a sigla para `PRESCRIÇÃO MÉDICA`?", "output": "A sigla é MPM."}
+{"input": "Qual a sigla para `PROCEDIMENTOS TERAPÊUTICOS`?", "output": "A sigla é MPT."}
+{"input": "Qual a sigla para `Medicina Interna`?", "output": "A sigla é ΜΕΙ."}
+{"input": "Qual a sigla para `Medicamento`?", "output": "A sigla é Mdto."}
+{"input": "Qual a sigla para `Movimento`?", "output": "A sigla é Mvto."}
+{"input": "Qual a sigla para `Número`?", "output": "A sigla é Nro."}
+{"input": "Qual a sigla para `Neonatologia`?", "output": "A sigla é NEO."}
+{"input": "Qual a sigla para `Observação`?", "output": "A sigla é Obs."}
+{"input": "Qual a sigla para `Ortopedia`?", "output": "A sigla é ORTO."}
+{"input": "Qual a sigla para `PROCEDIMENTOS DIAGNÓSTICOS TERAPÊUTICOS`?", "output": "A sigla é PDT."}
+{"input": "Qual a sigla para `Processo Administrativo de Compra`?", "output": "A sigla é PAC."}
+{"input": "Qual a sigla para `Parcela`?", "output": "A sigla é Parc."}
+{"input": "Qual a sigla para `Planejado`?", "output": "A sigla é Plan."}
+{"input": "Qual a sigla para `Quantidade`?", "output": "A sigla é Qtd."}
+{"input": "Qual a sigla para `Recém Nascido`?", "output": "A sigla é RN."}
+{"input": "Qual a sigla para `Requisição de Material`?", "output": "A sigla é RM."}
+{"input": "Qual a sigla para `Recipiente de Coleta`?", "output": "A sigla é RCO."}
+{"input": "Qual a sigla para `ADMINISTRAÇÃO DE PESSOAL`?", "output": "A sigla é RAP."}
+{"input": "Qual a sigla para `APOIO RESIDENTES`?", "output": "A sigla é RAR."}
+{"input": "Qual a sigla para `Solicitação de Compra`?", "output": "A sigla é SC."}
+{"input": "Qual a sigla para `Solicitação de Serviço`?", "output": "A sigla é SS."}
+{"input": "Qual a sigla para `Sala de Observação`?", "output": "A sigla é SO."}
+{"input": "Qual a sigla para `Sala de Recuperação`?", "output": "A sigla é SR."}
+{"input": "Qual a sigla para `Solicitação`?", "output": "A sigla é Sic."}
+{"input": "Qual a sigla para `Serviço`?", "output": "A sigla é Ser."}
+{"input": "Qual a sigla para `Solicitação de Exame`?", "output": "A sigla é SOE."}
+{"input": "Qual a sigla para `SISTEMA DE CONTROLE DE ESTOQUE`?", "output": "A sigla é SCE."}
+{"input": "Qual a sigla para `SISTEMA DE COMPRAS`?", "output": "A sigla é SCO."}
+{"input": "Qual a sigla para `Serviço de Nutrição e Dietética`?", "output": "A sigla é SND."}
+{"input": "Qual a sigla para `Sinais e sintomas médicos`?", "output": "A sigla é SSM."}
+{"input": "Qual a sigla para `AIDS-SIDA`?", "output": "A sigla é SID."}
+{"input": "Qual a sigla para `Serviço Auxiliar de Diagnóstico e Terapia`?", "output": "A sigla é SADT."}
+{"input": "Qual a sigla para `Serviço de Arquivo Médico e Informações de Saúde`?", "output": "A sigla é SAMIS."}
+{"input": "Qual a sigla para `Termo de Responsabilidade`?", "output": "A sigla é TR."}
+{"input": "Qual a sigla para `Tramite Interno`?", "output": "A sigla é Tram Int."}
+{"input": "Qual a sigla para `Unidade`?", "output": "A sigla é Und."}
+{"input": "Qual a sigla para `Unidade Funcional`?", "output": "A sigla é Unf."}
+{"input": "Qual a sigla para `Unidade Medida Médicas`?", "output": "A sigla é UMM."}
+{"input": "Qual a sigla para `Unidade de Cuidados Minimos`?", "output": "A sigla é UCM."}
+{"input": "Qual a sigla para `Unidade de Terapia Intensiva`?", "output": "A sigla é UTI."}
+{"input": "Qual a sigla para `UTI Pediátrica`?", "output": "A sigla é UTIP."}
+{"input": "Qual a sigla para `Valor`?", "output": "A sigla é Vir."}
+{"input": "Qual a sigla para `Vinculo`?", "output": "A sigla é Vin."}
+{"input": "Qual a sigla para `Vice-presidência Administrativa`?", "output": "A sigla é VPA."}
+{"input": "Qual a sigla para `Vice-presidência Médica`?", "output": "A sigla é VPM."}
+{"input": "O que significa 'Nascimento' na tabela AGH_ATENDIMENTO?", "output": "Nascimento significa atendimento do recém-nascido que está bem, sem complicações."}
+{"input": "O que significa 'Ambulatório' na tabela AGH_ATENDIMENTO?", "output": "Ambulatório significa consultas ambulatoriais."}
+{"input": "O que significa 'Internação' na tabela AGH_ATENDIMENTO?", "output": "Internação é a origem de atendimento número 1 na tabela."}
+{"input": "O que significa 'Urgência' na tabela AGH_ATENDIMENTO?", "output": "Urgência significa <24 horas na emergência - observação."}
+{"input": "O que significa 'Externo' na tabela AGH_ATENDIMENTO?", "output": "Externo é para pacientes que realizam exames no HCPA mas não foram atendidos lá, como pacientes de convênios."}
+{"input": "O que significa 'Doador' na tabela AGH_ATENDIMENTO?", "output": "Doador é uma origem de atendimento que foi descontinuada."}
+{"input": "O que significa 'Hospital Dia' na tabela AGH_ATENDIMENTO?", "output": "Hospital Dia é uma origem de atendimento que foi descontinuada."}
+{"input": "O que significa 'Cirurgia' na tabela AGH_ATENDIMENTO?", "output": "Cirurgia é a origem de atendimento 'C' na tabela."}
+{"input": "O que significa `Cuidado` na tabela `MPT PROTOCOLO_CUIDADOS`?", "output": "Cuidado é o significado da sigla `C` na coluna `Ind TIPO`."}
+{"input": "O que significa `Parâmetro` na tabela `MPT PROTOCOLO_CUIDADOS`?", "output": "Parâmetro é o significado da sigla `P` na coluna `Ind TIPO`."}
+{"input": "O que significa `HES da criopreservação`?", "output": "HES da criopreservação é o significado da sigla `H` na tabela `MTX_CRIOPRESERVACAO_CPH`."}
+{"input": "O que significa `Albumina da criopreservação`?", "output": "Albumina da criopreservação é o significado da sigla `A` na tabela `MTX_CRIOPRESERVACAO_CPH`."}
+{"input": "O que significa `Dimetilsulfóxido da criopreservação`?", "output": "Dimetilsulfóxido da criopreservação é o significado da sigla `D` na tabela `MTX_CRIOPRESERVACAO_CPH`."}
+{"input": "O que significa `Método` na tabela de criopreservação?", "output": "Método é o significado da sigla `M` na tabela `MTX_CRIOPRESERVACAO_CPH`."}
+{"input": "O que significa `Marca da Bolsa utilizada conforme o material`?", "output": "Marca da Bolsa utilizada conforme o material é o significado da sigla `B` na tabela `MTX_CRIOPRESERVACAO_CPH`."}
+{"input": "O que significa `Convite`?", "output": "Convite é o significado da sigla `CV`."}
+{"input": "O que significa `Concorrência`?", "output": "Concorrência é o significado da sigla `CC`."}
+{"input": "O que significa `Complemento`?", "output": "Complemento é o significado da sigla `CP`."}
+{"input": "O que significa `Comunicação Interna`?", "output": "Comunicação Interna é o significado da sigla `CI`."}
+{"input": "O que significa `Centro Obstétrico`?", "output": "Centro Obstétrico é o significado da sigla `CO`."}
+{"input": "O que significa `Centro Cirúrgico Ambulatorial`?", "output": "Centro Cirúrgico Ambulatorial é o significado da sigla `CCA`."}
+{"input": "O que significa `SISTEMA DE CONTROLE DE PROJETOS`?", "output": "SISTEMA DE CONTROLE DE PROJETOS é o significado da sigla `CPR`."}
+{"input": "O que significa `SISTEMA DE SEGURANÇA`?", "output": "SISTEMA DE SEGURANÇA é o significado da sigla `CSE`."}
+{"input": "O que significa `Cirurgia Geral`?", "output": "Cirurgia Geral é o significado da sigla `CIG`."}
+{"input": "O que significa `Cancelado`?", "output": "Cancelado é o significado da sigla `Canc`."}
+{"input": "O que significa `Código Especial de Registro para Internação Hospitalar`?", "output": "Código Especial de Registro para Internação Hospitalar é o significado da sigla `CERIH`."}
+{"input": "O que significa `Dispensa de Licitação`?", "output": "Dispensa de Licitação é o significado da sigla `DL`."}
+{"input": "O que significa `Delegacia de Polícia`?", "output": "Delegacia de Polícia é o significado da sigla `DP`."}
+{"input": "O que significa `Departamento Médico Legal`?", "output": "Departamento Médico Legal é o significado da sigla `DML`."}
+{"input": "O que significa `Empenho`?", "output": "Empenho é o significado da sigla `Emp`."}
+{"input": "O que significa `Entrega`?", "output": "Entrega é o significado da sigla `Entg`."}
+{"input": "O que significa `Estoque`?", "output": "Estoque é o significado da sigla `Estq`."}
+{"input": "O que significa `Fator de Conversão`?", "output": "Fator de Conversão é o significado da sigla `FC`."}
+{"input": "O que significa `Faturamento`?", "output": "Faturamento é o significado da sigla `FAT`."}
+{"input": "O que significa `SISTEMA CENTRO DE CUSTOS`?", "output": "SISTEMA CENTRO DE CUSTOS é o significado da sigla `FCC`."}
+{"input": "O que significa `SISTEMA DE CONTAS A PAGAR`?", "output": "SISTEMA DE CONTAS A PAGAR é o significado da sigla `FCP`."}
+{"input": "O que significa `SISTEMA DE CUSTOS`?", "output": "SISTEMA DE CUSTOS é o significado da sigla `FCU`."}
+{"input": "O que significa `FATURAMENTO CONVÊNIOS`?", "output": "FATURAMENTO CONVÊNIOS é o significado da sigla `FFC`."}
+{"input": "O que significa `SISTEMA DE ORÇAMENTO`?", "output": "SISTEMA DE ORÇAMENTO é o significado da sigla `FSO`."}
+{"input": "O que significa `Fornecedor`?", "output": "Fornecedor é o significado da sigla `Forn`."}
+{"input": "O que significa `SISTEMAS GENÉRICOS - TODOS DO BULL`?", "output": "SISTEMAS GENÉRICOS - TODOS DO BULL é o significado da sigla `GEN`."}
+{"input": "O que significa `Ginecologia`?", "output": "Ginecologia é o significado da sigla `GIN`."}
+{"input": "O que significa `Informações Gerenciais - É o sistema de BI (Business Intelligence) do HCPA`?", "output": "Informações Gerenciais - É o sistema de BI (Business Intelligence) do HCPA é o significado da sigla `IG`."}
+{"input": "O que significa `Item da Autorização de Fornecimento`?", "output": "Item da Autorização de Fornecimento é o significado da sigla `IAF`."}
+{"input": "O que significa `Inexibilidade de Licitação`?", "output": "Inexibilidade de Licitação é o significado da sigla `Inex`."}
+{"input": "O que significa `Hospital de Clinicas de Porto Alegre`?", "output": "Hospital de Clinicas de Porto Alegre é o significado da sigla `HCPA`."}
+{"input": "O que significa `Hospital Dia`?", "output": "Hospital Dia é o significado da sigla `HD`."}
+{"input": "O que significa `Licitação`?", "output": "Licitação é o significado da sigla `Lct`."}
+{"input": "O que significa `Material`?", "output": "Material é o significado da sigla `Mat`."}
+{"input": "O que significa `AMBULATORIOS`?", "output": "AMBULATORIOS é o significado da sigla `MAM`."}
+{"input": "O que significa `BLOCO CIRÚRGICO`?", "output": "BLOCO CIRÚRGICO é o significado da sigla `MBC`."}
+{"input": "O que significa `SISTEMA DE CONTROLE DE INFECÇÃO`?", "output": "SISTEMA DE CONTROLE DE INFECÇÃO é o significado da sigla `MCI`."}
+{"input": "O que significa `SISTEMA DA PERINATOLOGIA (CO + NEONATOLOGIA)`?", "output": "SISTEMA DA PERINATOLOGIA (CO + NEONATOLOGIA) é o significado da sigla `MCO`."}
+{"input": "O que significa `SISTEMA DE PROTOCOLOS`?", "output": "SISTEMA DE PROTOCOLOS é o significado da sigla `MPA`."}
+{"input": "O que significa `PRESCRIÇÃO MÉDICA`?", "output": "PRESCRIÇÃO MÉDICA é o significado da sigla `MPM`."}
+{"input": "O que significa `PROCEDIMENTOS TERAPÊUTICOS`?", "output": "PROCEDIMENTOS TERAPÊUTICOS é o significado da sigla `MPT`."}
+{"input": "O que significa `Medicina Interna`?", "output": "Medicina Interna é o significado da sigla `ΜΕΙ`."}
+{"input": "O que significa `Medicamento`?", "output": "Medicamento é o significado da sigla `Mdto`."}
+{"input": "O que significa `Movimento`?", "output": "Movimento é o significado da sigla `Mvto`."}
+{"input": "O que significa `Número`?", "output": "Número é o significado da sigla `Nro`."}
+{"input": "O que significa `Neonatologia`?", "output": "Neonatologia é o significado da sigla `NEO`."}
+{"input": "O que significa `Observação`?", "output": "Observação é o significado da sigla `Obs`."}
+{"input": "O que significa `Ortopedia`?", "output": "Ortopedia é o significado da sigla `ORTO`."}
+{"input": "O que significa `PROCEDIMENTOS DIAGNÓSTICOS TERAPÊUTICOS`?", "output": "PROCEDIMENTOS DIAGNÓSTICOS TERAPÊUTICOS é o significado da sigla `PDT`."}
+{"input": "O que significa `Processo Administrativo de Compra (Módulo Compras)`?", "output": "Processo Administrativo de Compra (Módulo Compras) é o significado da sigla `PAC`."}
+{"input": "O que significa `Parcela`?", "output": "Parcela é o significado da sigla `Parc`."}
+{"input": "O que significa `Planejado`?", "output": "Planejado é o significado da sigla `Plan`."}
+{"input": "O que significa `Quantidade`?", "output": "Quantidade é o significado da sigla `Qtd`."}
+{"input": "O que significa `Recém Nascido`?", "output": "Recém Nascido é o significado da sigla `RN`."}
+{"input": "O que significa `Requisição de Material`?", "output": "Requisição de Material é o significado da sigla `RM`."}
+{"input": "O que significa `Recipiente de Coleta`?", "output": "Recipiente de Coleta é o significado da sigla `RCO`."}
+{"input": "O que significa `ADMINISTRAÇÃO DE PESSOAL`?", "output": "ADMINISTRAÇÃO DE PESSOAL é o significado da sigla `RAP`."}
+{"input": "O que significa `APOIO RESIDENTES`?", "output": "APOIO RESIDENTES é o significado da sigla `RAR`."}
+{"input": "O que significa `Solicitação de Compra`?", "output": "Solicitação de Compra é o significado da sigla `SC`."}
+{"input": "O que significa `Solicitação de Serviço`?", "output": "Solicitação de Serviço é o significado da sigla `SS`."}
+{"input": "O que significa `Sala de Observação`?", "output": "Sala de Observação é o significado da sigla `SO`."}
+{"input": "O que significa `Sala de Recuperação`?", "output": "Sala de Recuperação é o significado da sigla `SR`."}
+{"input": "O que significa `Solicitação`?", "output": "Solicitação é o significado da sigla `Sic`."}
+{"input": "O que significa `Serviço`?", "output": "Serviço é o significado da sigla `Ser`."}
+{"input": "O que significa `Solicitação de Exame`?", "output": "Solicitação de Exame é o significado da sigla `SOE`."}
+{"input": "O que significa `SISTEMA DE CONTROLE DE ESTOQUE`?", "output": "SISTEMA DE CONTROLE DE ESTOQUE é o significado da sigla `SCE`."}
+{"input": "O que significa `SISTEMA DE COMPRAS`?", "output": "SISTEMA DE COMPRAS é o significado da sigla `SCO`."}
+{"input": "O que significa `Serviço de Nutrição e Dietética`?", "output": "Serviço de Nutrição e Dietética é o significado da sigla `SND`."}
+{"input": "O que significa `Sinais e sintomas médicos`?", "output": "Sinais e sintomas médicos é o significado da sigla `SSM`."}
+{"input": "O que significa `AIDS-SIDA`?", "output": "AIDS-SIDA é o significado da sigla `SID`."}
+{"input": "O que significa `Serviço Auxiliar de Diagnóstico e Terapia`?", "output": "Serviço Auxiliar de Diagnóstico e Terapia é o significado da sigla `SADT`."}
+{"input": "O que significa `Serviço de Arquivo Médico e Informações de Saúde`?", "output": "Serviço de Arquivo Médico e Informações de Saúde é o significado da sigla `SAMIS`."}
+{"input": "O que significa `Termo de Responsabilidade`?", "output": "Termo de Responsabilidade é o significado da sigla `TR`."}
+{"input": "O que significa `Tramite Interno`?", "output": "Tramite Interno é o significado da sigla `Tram Int`."}
+{"input": "O que significa `Unidade`?", "output": "Unidade é o significado da sigla `Und`."}
+{"input": "O que significa `Unidade Funcional`?", "output": "Unidade Funcional é o significado da sigla `Unf`."}
+{"input": "O que significa `Unidade Medida Médicas`?", "output": "Unidade Medida Médicas é o significado da sigla `UMM`."}
+{"input": "O que significa `Unidade de Cuidados Minimos (leito para recuperação de até 72 horas)`?", "output": "Unidade de Cuidados Minimos (leito para recuperação de até 72 horas) é o significado da sigla `UCM`."}
+{"input": "O que significa `Unidade de Terapia Intensiva`?", "output": "Unidade de Terapia Intensiva é o significado da sigla `UTI`."}
+{"input": "O que significa `UTI Pediátrica`?", "output": "UTI Pediátrica é o significado da sigla `UTIP`."}
+{"input": "O que significa `Valor`?", "output": "Valor é o significado da sigla `Vir`."}
+{"input": "O que significa `Vinculo`?", "output": "Vinculo é o significado da sigla `Vin`."}
+{"input": "O que significa `Vice-presidência Administrativa`?", "output": "Vice-presidência Administrativa é o significado da sigla `VPA`."}
+{"input": "O que significa `Vice-presidência Médica`?", "output": "Vice-presidência Médica é o significado da sigla `VPM`."}
+{"input": "Explique o que é um PACS.", "output": "Um PACS (Picture Archiving and Communication System) é uma plataforma para arquivar imagens médicas que oferece imagens de alta resolução, distribuição fácil de resultados, segurança com login/senha e redução de custos por integração de sistemas."}
+{"input": "Explique o que é um CIS.", "output": "Um CIS (Clinical Information System) é um sistema para gerenciar informações clínicas de pacientes, como diagnósticos, exames de laboratório e histórico médico."}
+{"input": "Explique o que é um LIS.", "output": "Um LIS (Laboratory Information System) é um software para gerenciar dados e informações em laboratórios de análises clínicas."}
+{"input": "Explique o que é um RIS.", "output": "Um RIS (Radiology Information System) é um sistema para organizar os processos de uma clínica de radiologia, como agendamento de exames e controle financeiro."}
+{"input": "Explique o que é um HIS.", "output": "Um HIS (Hospital Information System) é um sistema de gestão que opera com cadastro de pacientes, procedimentos e custos, integrando a comunicação hospitalar."}
+{"input": "Qual a principal funcionalidade do PACS?", "output": "A principal funcionalidade do PACS é o arquivamento de imagens médicas em alta resolução, com distribuição facilitada dos resultados."}
+{"input": "Qual a principal funcionalidade do CIS?", "output": "A principal funcionalidade do CIS é gerenciar informações clínicas de pacientes para acompanhar o histórico médico e fornecer dados importantes aos profissionais."}
+{"input": "Qual a principal funcionalidade do LIS?", "output": "A principal funcionalidade do LIS é armazenar dados sensíveis de pacientes e compartilhar resultados de exames em laboratórios de análises clínicas."}
+{"input": "Qual a principal funcionalidade do RIS?", "output": "A principal funcionalidade do RIS é organizar os processos de uma clínica de radiologia, como o agendamento de exames."}
+{"input": "Qual a principal funcionalidade do HIS?", "output": "A principal funcionalidade do HIS é integrar a comunicação interna e externa de um hospital, gerindo dados de pacientes e procedimentos."}
+{"input": "O que é um `Autorização de Fornecimento`?", "output": "AF é a sigla para Autorização de Fornecimento."}
+{"input": "O que é um `Anticoagulante`?", "output": "ATC é a sigla para Anticoagulante."}
+{"input": "O que é `AGENDAMENTO E MARCAÇÃO DE CONSULTAS`?", "output": "AAC é a sigla para Agendamento e Marcação de Consultas."}
+{"input": "O que é `SISTEMA DE FARMÁCIA`?", "output": "AFA é a sigla para Sistema de Farmácia."}
+{"input": "O que é `Autorização de Internação Hospitalar`?", "output": "AIH é a sigla para Autorização de Internação Hospitalar."}
+{"input": "O que é `Classificação (ou código) Internacional de Doenças`?", "output": "CID é a sigla para Classificação (ou código) Internacional de Doenças."}
+{"input": "O que é `Centro de Terapia Intensiva`?", "output": "CTI é a sigla para Centro de Terapia Intensiva."}
+{"input": "O que é `Declaração de Nascimento`?", "output": "DN é a sigla para Declaração de Nascimento."}
+{"input": "O que é `Declaração de Óbito`?", "output": "DO é a sigla para Declaração de Óbito."}
+{"input": "O que é `SISTEMA DE CONFERÊNCIA ELETRÔNICA DA ENFERMAGEM`?", "output": "ECE é a sigla para Sistema de Conferência Eletrônica da Enfermagem."}
+{"input": "O que é `PRESCRIÇÃO DE ENFERMAGEM`?", "output": "EPE é a sigla para Prescrição de Enfermagem."}
+{"input": "O que é `Faturamento`?", "output": "FAT é a sigla para Faturamento."}
+{"input": "O que é `SISTEMA DE CONTAS A PAGAR`?", "output": "FCP é a sigla para Sistema de Contas a Pagar."}
+{"input": "O que é `SISTEMA DE CUSTOS`?", "output": "FCU é a sigla para Sistema de Custos."}
+{"input": "O que é `FATURAMENTO CONVÊNIOS`?", "output": "FFC é a sigla para Faturamento Convênios."}
+{"input": "O que é `SISTEMA DE ORÇAMENTO`?", "output": "FSO é a sigla para Sistema de Orçamento."}
+{"input": "O que é `Informações Gerenciais`?", "output": "IG é a sigla para Informações Gerenciais."}
+{"input": "O que é `Item da Autorização de Fornecimento`?", "output": "IAF é a sigla para Item da Autorização de Fornecimento."}
+{"input": "O que é `PRESCRIÇÃO MÉDICA`?", "output": "MPM é a sigla para Prescrição Médica."}
+{"input": "O que é `SISTEMA DE PROTOCOLOS`?", "output": "MPA é a sigla para Sistema de Protocolos."}
+{"input": "O que é `Sinais e sintomas médicos`?", "output": "SSM é a sigla para Sinais e sintomas médicos."}
+{"input": "O que é `Serviço Auxiliar de Diagnóstico e Terapia`?", "output": "SADT é a sigla para Serviço Auxiliar de Diagnóstico e Terapia."}
+{"input": "O que é `Serviço de Arquivo Médico e Informações de Saúde`?", "output": "SAMIS é a sigla para Serviço de Arquivo Médico e Informações de Saúde."}
+{"input": "O que é `Unidade de Terapia Intensiva`?", "output": "UTI é a sigla para Unidade de Terapia Intensiva."}
+{"input": "O que é `Unidade Medida Médicas`?", "output": "UMM é a sigla para Unidade Medida Médicas."}
+{"input": "O que é `Unidade de Cuidados Minimos`?", "output": "UCM é a sigla para Unidade de Cuidados Minimos."}
+{"input": "O que é `Procedimentos Diagnósticos Terapêuticos`?", "output": "PDT é a sigla para Procedimentos Diagnósticos Terapêuticos."}
+{"input": "O que é `Processo Administrativo de Compra`?", "output": "PAC é a sigla para Processo Administrativo de Compra."}
+{"input": "O que é `Requisição de Material`?", "output": "RM é a sigla para Requisição de Material."}
+{"input": "O que é `Recipiente de Coleta`?", "output": "RCO é a sigla para Recipiente de Coleta."}
+{"input": "O que é `ADMINISTRAÇÃO DE PESSOAL`?", "output": "RAP é a sigla para Administração de Pessoal."}
+{"input": "O que é `APOIO RESIDENTES`?", "output": "RAR é a sigla para Apoio Residentes."}
+{"input": "O que é `Solicitação de Compra`?", "output": "SC é a sigla para Solicitação de Compra."}
+{"input": "O que é `Solicitação de Serviço`?", "output": "SS é a sigla para Solicitação de Serviço."}
+{"input": "O que é `Sala de Observação`?", "output": "SO é a sigla para Sala de Observação."}
+{"input": "O que é `Sala de Recuperação`?", "output": "SR é a sigla para Sala de Recuperação."}
+{"input": "O que é `SISTEMA DE CONTROLE DE ESTOQUE`?", "output": "SCE é a sigla para Sistema de Controle de Estoque."}
+{"input": "O que é `SISTEMA DE COMPRAS`?", "output": "SCO é a sigla para Sistema de Compras."}
+{"input": "O que é `Serviço de Nutrição e Dietética`?", "output": "SND é a sigla para Serviço de Nutrição e Dietética."}
+{"input": "O que é `Solicitação de Exame`?", "output": "SOE é a sigla para Solicitação de Exame."}
+{"input": "O que é `Termo de Responsabilidade`?", "output": "TR é a sigla para Termo de Responsabilidade."}
+{"input": "O que é `Unidade Funcional`?", "output": "Unf é a sigla para Unidade Funcional."}
+{"input": "O que é `Ginecologia`?", "output": "GIN é a sigla para Ginecologia."}
+{"input": "O que é `Ortopedia`?", "output": "ORTO é a sigla para Ortopedia."}
+{"input": "O que é `Neonatologia`?", "output": "NEO é a sigla para Neonatologia."}
+{"input": "O que é `Hospital de Clinicas de Porto Alegre`?", "output": "HCPA é a sigla para Hospital de Clinicas de Porto Alegre."}
+{"input": "O que é `Hospital Dia`?", "output": "HD é a sigla para Hospital Dia."}
+{"input": "O que é `Recém Nascido`?", "output": "RN é a sigla para Recém Nascido."}
+{"input": "O que é `Medicina Interna`?", "output": "ΜΕΙ é a sigla para Medicina Interna."}
+{"input": "O que é `AMBULATORIOS`?", "output": "MAM é a sigla para Ambulatórios."}
+{"input": "O que é `BLOCO CIRÚRGICO`?", "output": "MBC é a sigla para Bloco Cirúrgico."}
+{"input": "O que é `SISTEMA DA PERINATOLOGIA`?", "output": "MCO é a sigla para Sistema da Perinatologia."}
+{"input": "O que é `SISTEMAS GENÉRICOS`?", "output": "GEN é a sigla para Sistemas Genéricos."}
+{"input": "O que é `Declaração de Óbito`?", "output": "DO é a sigla para Declaração de Óbito."}
+{"input": "O que é `Departamento Médico Legal`?", "output": "DML é a sigla para Departamento Médico Legal."}
+{"input": "O que é `AIP`?", "output": "AIP significa Identificação de Pacientes."}
+{"input": "O que é `ANU`?", "output": "ANU significa Sistema de Nutrição."}
+{"input": "O que é `BA`?", "output": "BA significa Boletim de Atendimento."}
+{"input": "O que é `BO`?", "output": "BO significa Boletim de Ocorrência."}
+{"input": "O que é `BC`?", "output": "BC significa Bloco Cirúrgico."}
+{"input": "O que é `CV`?", "output": "CV significa Convite."}
+{"input": "O que é `CC`?", "output": "CC significa Concorrência."}
+{"input": "O que é `CP`?", "output": "CP significa Complemento."}
+{"input": "O que é `CI`?", "output": "CI significa Comunicação Interna."}
+{"input": "O que é `CO`?", "output": "CO significa Centro Obstétrico."}
+{"input": "O que é `CCA`?", "output": "CCA significa Centro Cirúrgico Ambulatorial."}
+{"input": "O que é `CPR`?", "output": "CPR significa Sistema de Controle de Projetos."}
+{"input": "O que é `CSE`?", "output": "CSE significa Sistema de Segurança."}
+{"input": "O que é `CIG`?", "output": "CIG significa Cirurgia Geral."}
+{"input": "O que é `Canc`?", "output": "Canc significa Cancelado."}
+{"input": "O que é `CERIH`?", "output": "CERIH significa Código Especial de Registro para Internação Hospitalar."}
+{"input": "O que é `DL`?", "output": "DL significa Dispensa de Licitação."}
+{"input": "O que é `DP`?", "output": "DP significa Delegacia de Polícia."}
+{"input": "O que é `Emp`?", "output": "Emp significa Empenho."}
+{"input": "O que é `ECE`?", "output": "ECE significa Sistema de Conferência Eletrônica da Enfermagem."}
+{"input": "O que é `EPE`?", "output": "EPE significa Prescrição de Enfermagem."}
+{"input": "O que é `Entg`?", "output": "Entg significa Entrega."}
+{"input": "O que é `Estq`?", "output": "Estq significa Estoque."}
+{"input": "O que é `FC`?", "output": "FC significa Fator de Conversão."}
+{"input": "O que é `FAT`?", "output": "FAT significa Faturamento."}
+{"input": "O que é `FCC`?", "output": "FCC significa Sistema Centro de Custos."}
+{"input": "O que é `FCP`?", "output": "FCP significa Sistema de Contas a Pagar."}
+{"input": "O que é `FCU`?", "output": "FCU significa Sistema de Custos."}
+{"input": "O que é `FFC`?", "output": "FFC significa Faturamento Convênios."}
+{"input": "O que é `FSO`?", "output": "FSO significa Sistema de Orçamento."}
+{"input": "O que é `Forn`?", "output": "Forn significa Fornecedor."}
+{"input": "O que é `IG`?", "output": "IG significa Informações Gerenciais."}
+{"input": "O que é `IAF`?", "output": "IAF significa Item da Autorização de Fornecimento."}
+{"input": "O que é `Inex`?", "output": "Inex significa Inexibilidade de Licitação."}
+{"input": "O que é `Lct`?", "output": "Lct significa Licitação."}
+{"input": "O que é `Mat`?", "output": "Mat significa Material."}
+{"input": "O que é `MCI`?", "output": "MCI significa Sistema de Controle de Infecção."}
+{"input": "O que é `MPA`?", "output": "MPA significa Sistema de Protocolos."}
+{"input": "O que é `MPM`?", "output": "MPM significa Prescrição Médica."}
+{"input": "O que é `MPT`?", "output": "MPT significa Procedimentos Terapêuticos."}
+{"input": "O que é `Mdto`?", "output": "Mdto significa Medicamento."}
+{"input": "O que é `Mvto`?", "output": "Mvto significa Movimento."}
+{"input": "O que é `Nro`?", "output": "Nro significa Número."}
+{"input": "O que é `Obs`?", "output": "Obs significa Observação."}
+{"input": "O que é `PAC`?", "output": "PAC significa Processo Administrativo de Compra."}
+{"input": "O que é `Parc`?", "output": "Parc significa Parcela."}
+{"input": "O que é `Plan`?", "output": "Plan significa Planejado."}
+{"input": "O que é `Qtd`?", "output": "Qtd significa Quantidade."}
+{"input": "O que é `RM`?", "output": "RM significa Requisição de Material."}
+{"input": "O que é `RAP`?", "output": "RAP significa Administração de Pessoal."}
+{"input": "O que é `RAR`?", "output": "RAR significa Apoio Residentes."}
+{"input": "O que é `SC`?", "output": "SC significa Solicitação de Compra."}
+{"input": "O que é `SS`?", "output": "SS significa Solicitação de Serviço."}
+{"input": "O que é `SO`?", "output": "SO significa Sala de Observação."}
+{"input": "O que é `SR`?", "output": "SR significa Sala de Recuperação."}
+{"input": "O que é `Sic`?", "output": "Sic significa Solicitação."}
+{"input": "O que é `Ser`?", "output": "Ser significa Serviço."}
+{"input": "O que é `SOE`?", "output": "SOE significa Solicitação de Exame."}
+{"input": "O que é `SCE`?", "output": "SCE significa Sistema de Controle de Estoque."}
+{"input": "O que é `SCO`?", "output": "SCO significa Sistema de Compras."}
+{"input": "O que é `SND`?", "output": "SND significa Serviço de Nutrição e Dietética."}
+{"input": "O que é `SSM`?", "output": "SSM significa Sinais e sintomas médicos."}
+{"input": "O que é `SID`?", "output": "SID significa AIDS-SIDA."}
+{"input": "O que é `SADT`?", "output": "SADT significa Serviço Auxiliar de Diagnóstico e Terapia."}
+{"input": "O que é `SAMIS`?", "output": "SAMIS significa Serviço de Arquivo Médico e Informações de Saúde."}
+{"input": "O que é `TR`?", "output": "TR significa Termo de Responsabilidade."}
+{"input": "O que é `Und`?", "output": "Und significa Unidade."}
+{"input": "O que é `Unf`?", "output": "Unf significa Unidade Funcional."}
+{"input": "O que é `Vir`?", "output": "Vir significa Valor."}
+{"input": "O que é `Vin`?", "output": "Vin significa Vinculo."}
+{"input": "O que é `VPA`?", "output": "VPA significa Vice-presidência Administrativa."}
+{"input": "O que é `VPM`?", "output": "VPM significa Vice-presidência Médica."}
+{"input": "O que é um `atendimento do recém-nascido que está bem`?", "output": "É um tipo de origem de atendimento, classificado como `N` na tabela `AGH_ATENDIMENTO`."}
+{"input": "O que são `consultas ambulatoriais`?", "output": "Consultas ambulatoriais são um tipo de origem de atendimento, classificado como `A` na tabela `AGH_ATENDIMENTO`."}
+{"input": "O que é um `atendimento de Internação`?", "output": "Um atendimento de Internação é um tipo de origem de atendimento, classificado como `1` na tabela `AGH_ATENDIMENTO`."}
+{"input": "O que é um atendimento de `Urgência`?", "output": "Um atendimento de Urgência, classificado como `U` na tabela `AGH_ATENDIMENTO`, é aquele com <24 horas na emergência - observação."}
+{"input": "O que é um `atendimento Externo`?", "output": "Um atendimento Externo, classificado como `X`, é para pacientes de convênios que vêm realizar exames no HCPA mas não foram atendidos lá."}
+{"input": "O que é uma origem de atendimento `Doador`?", "output": "Doador é uma origem de atendimento (`D`) que foi descontinuada."}
+{"input": "O que é uma origem de atendimento `Hospital Dia`?", "output": "Hospital Dia é uma origem de atendimento (`H`) que foi descontinuada."}
+{"input": "O que é um atendimento de `Cirurgia`?", "output": "Um atendimento de Cirurgia é uma origem de atendimento, classificada como `C` na tabela `AGH_ATENDIMENTO`."}
+{"input": "O que são `Boletim de Ocorrência` e `Boletim de Atendimento`?", "output": "BO e BA, respectivamente, são os termos para Boletim de Ocorrência e Boletim de Atendimento."}
+{"input": "O que é `Prescrição de Enfermagem`?", "output": "EPE é a sigla para Prescrição de Enfermagem."}
+{"input": "O que é `Prescrição Médica`?", "output": "MPM é a sigla para Prescrição Médica."}
+{"input": "O que é `SISTEMA DA PERINATOLOGIA`?", "output": "MCO é a sigla para o Sistema da Perinatologia, que inclui Centro Obstétrico (CO) e Neonatologia (NEO)."}
+{"input": "O que é `SISTEMA DE CONTROLE DE INFECÇÃO`?", "output": "MCI é a sigla para Sistema de Controle de Infecção."}
+{"input": "O que é `SISTEMA DE PROTOCOLOS`?", "output": "MPA é a sigla para Sistema de Protocolos."}
+{"input": "O que é `SISTEMA DE CUSTOS`?", "output": "FCU é a sigla para Sistema de Custos."}
+{"input": "O que é `SISTEMA CENTRO DE CUSTOS`?", "output": "FCC é a sigla para Sistema Centro de Custos."}
+{"input": "O que é `SISTEMA DE SEGURANÇA`?", "output": "CSE é a sigla para Sistema de Segurança."}
+{"input": "O que é `SISTEMA DE CONTROLE DE PROJETOS`?", "output": "CPR é a sigla para Sistema de Controle de Projetos."}
+{"input": "O que é `SISTEMA DE INTERNAÇÃO`?", "output": "AIN é a sigla para Sistema de Internação."}
+{"input": "O que é `SISTEMA DE FARMÁCIA`?", "output": "AFA é a sigla para Sistema de Farmácia."}
+{"input": "O que é `SISTEMA DE ESCALA DE SERVIDORES`?", "output": "AES é a sigla para Sistema de Escala de Servidores."}
+{"input": "O que é `SISTEMAS DE EXAMES E LAUDOS`?", "output": "AEL é a sigla para Sistemas de Exames e Laudos."}
+{"input": "O que é `SISTEMA DE BANCO DE SANGUE`?", "output": "ABS é a sigla para Sistema de Banco de Sangue."}
+{"input": "O que é `AGENDAMENTO E MARCAÇÃO DE CONSULTAS`?", "output": "AAC é a sigla para Agendamento e Marcação de Consultas."}
+{"input": "O que é `Anticoagulante`?", "output": "ATC é a sigla para Anticoagulante."}
+{"input": "O que é `Identificação de Pacientes`?", "output": "AIP é a sigla para Identificação de Pacientes."}
+{"input": "O que é `Sistema de Nutrição`?", "output": "ANU é a sigla para Sistema de Nutrição."}
+{"input": "O que é `Serviço de Nutrição e Dietética`?", "output": "SND é a sigla para Serviço de Nutrição e Dietética."}
+{"input": "O que é `Recém Nascido`?", "output": "RN é a sigla para Recém Nascido."}
+{"input": "O que é `Unidade de Terapia Intensiva`?", "output": "UTI é a sigla para Unidade de Terapia Intensiva."}
+{"input": "O que é `UTI Pediátrica`?", "output": "UTIP é a sigla para UTI Pediátrica."}
+{"input": "O que é `Sala de Observação`?", "output": "SO é a sigla para Sala de Observação."}
+{"input": "O que é `Sala de Recuperação`?", "output": "SR é a sigla para Sala de Recuperação."}
+{"input": "O que é `Serviço Auxiliar de Diagnóstico e Terapia`?", "output": "SADT é a sigla para Serviço Auxiliar de Diagnóstico e Terapia."}
+{"input": "O que é `AIDS-SIDA`?", "output": "SID é a sigla para AIDS-SIDA."}
+{"input": "O que é `Sinais e sintomas médicos`?", "output": "SSM é a sigla para Sinais e sintomas médicos."}
+{"input": "O que é `Serviço de Arquivo Médico e Informações de Saúde`?", "output": "SAMIS é a sigla para Serviço de Arquivo Médico e Informações de Saúde."}
+{"input": "O que é `Dispensa de Licitação`?", "output": "DL é a sigla para Dispensa de Licitação."}
+{"input": "O que é `Inexibilidade de Licitação`?", "output": "Inex é a sigla para Inexibilidade de Licitação."}
+{"input": "O que é `Requisição de Material`?", "output": "RM é a sigla para Requisição de Material."}
+{"input": "O que é `Recipiente de Coleta`?", "output": "RCO é a sigla para Recipiente de Coleta."}
+{"input": "O que é `Termo de Responsabilidade`?", "output": "TR é a sigla para Termo de Responsabilidade."}
+{"input": "O que é `Tramite Interno`?", "output": "Tram Int é a sigla para Tramite Interno."}
+{"input": "O que é `Unidade`?", "output": "Und é a sigla para Unidade."}
+{"input": "O que é `Unidade Funcional`?", "output": "Unf é a sigla para Unidade Funcional."}
+{"input": "O que é `Unidade Medida Médicas`?", "output": "UMM é a sigla para Unidade Medida Médicas."}
+{"input": "O que é `Valor`?", "output": "Vir é a sigla para Valor."}
+{"input": "O que é `Vinculo`?", "output": "Vin é a sigla para Vínculo."}
+{"input": "O que é `Vice-presidência Administrativa`?", "output": "VPA é a sigla para Vice-presidência Administrativa."}
+{"input": "O que é `Vice-presidência Médica`?", "output": "VPM é a sigla para Vice-presidência Médica."}
+{"input": "O que é `Fator de Conversão`?", "output": "FC é a sigla para Fator de Conversão."}
+{"input": "O que é `Faturamento Convênios`?", "output": "FFC é a sigla para Faturamento Convênios."}
+{"input": "O que é `Ginecologia`?", "output": "GIN é a sigla para Ginecologia."}
+{"input": "O que é `Ortopedia`?", "output": "ORTO é a sigla para Ortopedia."}
+{"input": "O que é `Neonatologia`?", "output": "NEO é a sigla para Neonatologia."}
+{"input": "O que é `Medicina Interna`?", "output": "ΜΕΙ é a sigla para Medicina Interna."}
+{"input": "O que é `Ambulatórios`?", "output": "MAM é a sigla para Ambulatórios."}
+{"input": "O que é `Bloco Cirúrgico`?", "output": "MBC é a sigla para Bloco Cirúrgico."}
+{"input": "O que é `Processo Administrativo de Compra`?", "output": "PAC é a sigla para Processo Administrativo de Compra."}
+{"input": "O que é `Processo de Licitação`?", "output": "Lct é a sigla para Licitação."}
+{"input": "O que é um `atendimento do recém-nascido`?", "output": "Um atendimento do recém-nascido é classificado como `N` na tabela `AGH_ATENDIMENTO`."}
+{"input": "O que são `consultas ambulatoriais`?", "output": "Consultas ambulatoriais são um tipo de origem de atendimento, classificado como `A` na tabela `AGH_ATENDIMENTO`."}
+{"input": "O que significa o número `1` na tabela de origem?", "output": "O número `1` na tabela de origem de atendimento significa Internação."}
+{"input": "O que significa o código `U` na tabela `AGH_ATENDIMENTO`?", "output": "O código `U` significa Urgência, para atendimentos de emergência com menos de 24 horas."}
+{"input": "O que é um paciente `Externo`?", "output": "Um paciente Externo (`X`) é aquele que realiza exames no HCPA sem ter sido atendido lá, como pacientes de convênios."}
+{"input": "Qual a descrição para o código `C` na tabela de atendimento?", "output": "O código `C` na tabela de atendimento significa Cirurgia."}
+{"input": "O que é um `Boletim de Ocorrência`?", "output": "BO é a sigla para Boletim de Ocorrência."}
+{"input": "O que é um `Boletim de Atendimento`?", "output": "BA é a sigla para Boletim de Atendimento."}
+{"input": "O que é `prescrição de enfermagem`?", "output": "Prescrição de Enfermagem é o significado da sigla `EPE`."}
+{"input": "O que é `Prescrição Médica`?", "output": "Prescrição Médica é o significado da sigla `MPM`."}
+{"input": "O que são `procedimentos terapêuticos`?", "output": "Procedimentos terapêuticos são o significado da sigla `MPT`."}
+{"input": "O que são `procedimentos diagnósticos terapêuticos`?", "output": "Procedimentos diagnósticos terapêuticos são o significado da sigla `PDT`."}
+{"input": "O que é `solicitação de exame`?", "output": "Solicitação de exame é o significado da sigla `SOE`."}
+{"input": "O que é um `Fator de Conversão`?", "output": "FC é a sigla para Fator de Conversão."}
+{"input": "O que é `Faturamento`?", "output": "FAT é a sigla para Faturamento."}
+{"input": "O que é `SISTEMA CENTRO DE CUSTOS`?", "output": "FCC é a sigla para SISTEMA CENTRO DE CUSTOS."}
+{"input": "O que é `SISTEMA DE CONTAS A PAGAR`?", "output": "FCP é a sigla para SISTEMA DE CONTAS A PAGAR."}
+{"input": "O que é `SISTEMA DE CUSTOS`?", "output": "FCU é a sigla para SISTEMA DE CUSTOS."}
+{"input": "O que é `FATURAMENTO CONVÊNIOS`?", "output": "FFC é a sigla para FATURAMENTO CONVÊNIOS."}
+{"input": "O que é `SISTEMA DE ORÇAMENTO`?", "output": "FSO é a sigla para SISTEMA DE ORÇAMENTO."}
+{"input": "O que é `Fornecedor`?", "output": "Forn é a sigla para Fornecedor."}
+{"input": "O que é `Material`?", "output": "Mat é a sigla para Material."}
+{"input": "O que é `Medicamento`?", "output": "Mdto é a sigla para Medicamento."}
+{"input": "O que é `Movimento`?", "output": "Mvto é a sigla para Movimento."}
+{"input": "O que é `Número`?", "output": "Nro é a sigla para Número."}
+{"input": "O que é `Observação`?", "output": "Obs é a sigla para Observação."}
+{"input": "O que é `Parcela`?", "output": "Parc é a sigla para Parcela."}
+{"input": "O que é `Planejado`?", "output": "Plan é a sigla para Planejado."}
+{"input": "O que é `Quantidade`?", "output": "Qtd é a sigla para Quantidade."}
+{"input": "O que é `Solicitação`?", "output": "Sic é a sigla para Solicitação."}
+{"input": "O que é `Serviço`?", "output": "Ser é a sigla para Serviço."}
+{"input": "O que é `Valor`?", "output": "Vir é a sigla para Valor."}
+{"input": "O que é `Vínculo`?", "output": "Vin é a sigla para Vínculo."}
+{"input": "O que é `Solicitação de Compra`?", "output": "SC é a sigla para Solicitação de Compra."}
+{"input": "O que é `Solicitação de Serviço`?", "output": "SS é a sigla para Solicitação de Serviço."}
+{"input": "O que é `Sala de Observação`?", "output": "SO é a sigla para Sala de Observação."}
+{"input": "O que é `Sala de Recuperação`?", "output": "SR é a sigla para Sala de Recuperação."}
+{"input": "O que é `SISTEMA DE CONTROLE DE ESTOQUE`?", "output": "SCE é a sigla para SISTEMA DE CONTROLE DE ESTOQUE."}
+{"input": "O que é `SISTEMA DE COMPRAS`?", "output": "SCO é a sigla para SISTEMA DE COMPRAS."}
+{"input": "O que é `Serviço de Nutrição e Dietética`?", "output": "SND é a sigla para Serviço de Nutrição e Dietética."}
+{"input": "O que é `Sinais e sintomas médicos`?", "output": "SSM é a sigla para Sinais e sintomas médicos."}
+{"input": "O que é `AIDS-SIDA`?", "output": "SID é a sigla para AIDS-SIDA."}
+{"input": "O que é `Serviço Auxiliar de Diagnóstico e Terapia`?", "output": "SADT é a sigla para Serviço Auxiliar de Diagnóstico e Terapia."}
+{"input": "O que é `Serviço de Arquivo Médico e Informações de Saúde`?", "output": "SAMIS é a sigla para Serviço de Arquivo Médico e Informações de Saúde."}
+{"input": "O que é `Termo de Responsabilidade`?", "output": "TR é a sigla para Termo de Responsabilidade."}
+{"input": "O que é `Tramite Interno`?", "output": "Tram Int é a sigla para Tramite Interno."}
+{"input": "O que é `Unidade`?", "output": "Und é a sigla para Unidade."}
+{"input": "O que é `Unidade Funcional`?", "output": "Unf é a sigla para Unidade Funcional."}
+{"input": "O que é `Unidade Medida Médicas`?", "output": "UMM é a sigla para Unidade Medida Médicas."}
+{"input": "O que é `Unidade de Cuidados Minimos`?", "output": "UCM é a sigla para Unidade de Cuidados Minimos."}
+{"input": "O que é `Unidade de Terapia Intensiva`?", "output": "UTI é a sigla para Unidade de Terapia Intensiva."}
+{"input": "O que é `UTI Pediátrica`?", "output": "UTIP é a sigla para UTI Pediátrica."}
+{"input": "O que é `Valor`?", "output": "Vir é a sigla para Valor."}
+{"input": "O que é `Vinculo`?", "output": "Vin é a sigla para Vínculo."}
+{"input": "O que é `Vice-presidência Administrativa`?", "output": "VPA é a sigla para Vice-presidência Administrativa."}
+{"input": "O que é `Vice-presidência Médica`?", "output": "VPM é a sigla para Vice-presidência Médica."}
+{"input": "Qual a sigla para `hipertensão arterial sistêmica`?", "output": "HAS."}
+{"input": "Qual a sigla para `doença renal crônica`?", "output": "DRC."}
+{"input": "Qual a sigla para `inibidores da enzima conversora de angiotensina`?", "output": "IECA."}
+{"input": "O que é `Protocolo Clínico e Diretrizes Terapêuticas`?", "output": "PCDT."}
+{"input": "O que é `Autorização de Fornecimento`?", "output": "É um documento que autoriza o fornecimento de um bem ou serviço."}
+{"input": "O que é `Almoxarifado`?", "output": "É um local de armazenamento de materiais e suprimentos."}
+{"input": "O que é `Anticoagulante`?", "output": "É uma substância que previne a coagulação sanguínea."}
+{"input": "O que é `Atendimento`?", "output": "É a prestação de serviço ao paciente."}
+{"input": "O que é `AGENDAMENTO E MARCAÇÃO DE CONSULTAS`?", "output": "É o processo de agendar consultas médicas."}
+{"input": "O que é `SISTEMA DE BANCO DE SANGUE`?", "output": "É o sistema que gerencia o estoque e doação de sangue."}
+{"input": "O que é `SISTEMAS DE EXAMES E LAUDOS`?", "output": "É o sistema que gerencia a realização de exames e a emissão de laudos."}
+{"input": "O que é `SISTEMA DE ESCALA DE SERVIDORES`?", "output": "É o sistema que gerencia a escala de trabalho dos profissionais de saúde."}
+{"input": "O que é `SISTEMA DE FARMÁCIA`?", "output": "É o sistema que gerencia o estoque e distribuição de medicamentos."}
+{"input": "O que é `HOSPITAL DIA`?", "output": "É uma unidade de saúde que realiza procedimentos de curta duração, sem necessidade de internação noturna."}
+{"input": "O que é `Autorização de Internação Hospitalar`?", "output": "É o documento que autoriza a internação de um paciente em um hospital."}
+{"input": "O que é `SISTEMA DE INTERNAÇÃO`?", "output": "É o sistema que gerencia o processo de internação de pacientes."}
+{"input": "O que é `IDENTIFICAÇÃO DE PACIENTES`?", "output": "É o processo de identificação de pacientes por meio de documentos ou pulseiras."}
+{"input": "O que é `SISTEMA DE NUTRIÇÃO`?", "output": "É o sistema que gerencia a dieta e nutrição dos pacientes."}
+{"input": "O que é `Boletim de Ocorrência`?", "output": "É um documento que registra uma ocorrência, como um acidente ou crime."}
+{"input": "O que é `Boletim de Atendimento`?", "output": "É um documento que registra um atendimento, como um atendimento de emergência."}
+{"input": "O que é `Bloco Cirúrgico`?", "output": "É a área de um hospital onde são realizadas cirurgias."}
+{"input": "O que é `Convite`?", "output": "É um tipo de licitação."}
+{"input": "O que é `Concorrência`?", "output": "É um tipo de licitação."}
+{"input": "O que é `Complemento`?", "output": "É um adicional a algo já existente."}
+{"input": "O que é `Comunicação Interna`?", "output": "É a comunicação entre os funcionários de uma organização."}
+{"input": "O que é `Centro Obstétrico`?", "output": "É a área de um hospital onde são realizados partos."}
+{"input": "O que é `Centro Cirúrgico Ambulatorial`?", "output": "É a área de um hospital onde são realizadas cirurgias de curta duração, sem internação noturna."}
+{"input": "O que é `Classificação (ou código) Internacional de Doenças`?", "output": "É uma classificação de doenças e problemas de saúde."}
+{"input": "O que é `SISTEMA DE CONTROLE DE PROJETOS`?", "output": "É o sistema que gerencia o desenvolvimento e acompanhamento de projetos."}
+{"input": "O que é `SISTEMA DE SEGURANÇA`?", "output": "É o sistema que garante a segurança de dados e informações."}
+{"input": "O que é `Centro de Terapia Intensiva`?", "output": "É uma unidade de um hospital que atende pacientes em estado grave."}
+{"input": "O que é `Cirurgia Geral`?", "output": "É uma especialidade médica que trata de cirurgias."}
+{"input": "O que é `Cancelado`?", "output": "É o status de algo que foi cancelado."}
+{"input": "O que é `Código Especial de Registro para Internação Hospitalar`?", "output": "É um código usado para registrar internações hospitalares."}
+{"input": "O que é `Dispensa de Licitação`?", "output": "É a dispensa de uma licitação, permitindo a contratação direta."}
+{"input": "O que é `Declaração de Nascimento`?", "output": "É o documento que declara o nascimento de uma pessoa."}
+{"input": "O que é `Declaração de Óbito`?", "output": "É o documento que declara o óbito de uma pessoa."}
+{"input": "O que é `Delegacia de Polícia`?", "output": "É a unidade da polícia responsável por registrar ocorrências."}
+{"input": "O que é `Departamento Médico Legal`?", "output": "É o departamento que realiza perícias médicas."}
+{"input": "O que é `Empenho`?", "output": "É a garantia de que um valor será pago."}
+{"input": "O que é `SISTEMA DE CONFERÊNCIA ELETRÔNICA DA ENFERMAGEM`?", "output": "É o sistema que permite a conferência eletrônica de procedimentos de enfermagem."}
+{"input": "O que é `PRESCRIÇÃO DE ENFERMAGEM`?", "output": "É o ato de prescrever cuidados de enfermagem a um paciente."}
+{"input": "O que é `Entrega`?", "output": "É o ato de entregar algo."}
+{"input": "O que é `Estoque`?", "output": "É o local onde os materiais são armazenados."}
+{"input": "O que é `Fator de Conversão`?", "output": "É um fator que converte uma unidade de medida em outra."}
+{"input": "O que é `Faturamento`?", "output": "É o processo de emissão de faturas e cobrança."}
+{"input": "O que é `SISTEMA CENTRO DE CUSTOS`?", "output": "É o sistema que gerencia os custos de cada setor."}
+{"input": "O que é `SISTEMA DE CONTAS A PAGAR`?", "output": "É o sistema que gerencia as contas a serem pagas."}
+{"input": "O que é `SISTEMA DE CUSTOS`?", "output": "É o sistema que gerencia os custos de uma organização."}
+{"input": "O que é `FATURAMENTO CONVÊNIOS`?", "output": "É o processo de faturamento de serviços prestados a convênios."}
+{"input": "O que é `SISTEMA DE ORÇAMENTO`?", "output": "É o sistema que gerencia o orçamento de uma organização."}
+{"input": "O que é `Fornecedor`?", "output": "É a empresa ou pessoa que fornece produtos ou serviços."}
+{"input": "O que é `SISTEMAS GENÉRICOS - TODOS DO BULL`?", "output": "São sistemas genéricos utilizados em todas as unidades de saúde."}
+{"input": "O que é `Ginecologia`?", "output": "É a especialidade médica que trata da saúde da mulher."}
+{"input": "O que é `Informações Gerenciais - É o sistema de BI (Business Intelligence) do HCPA`?", "output": "É o sistema de BI (Business Intelligence) do Hospital de Clínicas de Porto Alegre."}
+{"input": "O que é `Item da Autorização de Fornecimento`?", "output": "É um item que faz parte de uma Autorização de Fornecimento."}
+{"input": "O que é `Inexibilidade de Licitação`?", "output": "É a situação em que não é possível realizar uma licitação, permitindo a contratação direta."}
+{"input": "O que é `Hospital de Clinicas de Porto Alegre`?", "output": "É um hospital de referência no Brasil."}
+{"input": "O que é `Hospital Dia`?", "output": "É um hospital que atende pacientes que necessitam de cuidados de saúde durante o dia, mas podem retornar para casa à noite."}
+{"input": "O que é `Licitação`?", "output": "É um processo para contratação de serviços ou aquisição de bens pela administração pública."}
+{"input": "O que é `Material`?", "output": "É um insumo utilizado em procedimentos de saúde."}
+{"input": "O que é `AMBULATORIOS`?", "output": "São locais de atendimento médico em que os pacientes não são internados."}
+{"input": "O que é `BLOCO CIRÚRGICO`?", "output": "É a área de um hospital onde são realizadas cirurgias."}
+{"input": "O que é `SISTEMA DE CONTROLE DE INFECÇÃO`?", "output": "É o sistema que controla a propagação de infecções em um ambiente de saúde."}
+{"input": "O que é `SISTEMA DA PERINATOLOGIA (CO + NEONATOLOGIA)`?", "output": "É o sistema que gerencia o atendimento de gestantes e recém-nascidos."}
+{"input": "O que é `SISTEMA DE PROTOCOLOS`?", "output": "É o sistema que gerencia protocolos de atendimento."}
+{"input": "O que é `PRESCRIÇÃO MÉDICA`?", "output": "É o ato de prescrever medicamentos ou tratamentos a um paciente."}
+{"input": "O que é `PROCEDIMENTOS TERAPÊUTICOS`?", "output": "São procedimentos que visam tratar uma doença ou problema de saúde."}
+{"input": "O que é `Medicina Interna`?", "output": "É a especialidade médica que trata de doenças de adultos."}
+{"input": "O que é `Medicamento`?", "output": "É uma substância utilizada para tratar ou prevenir doenças."}
+{"input": "O que é `Movimento`?", "output": "É a movimentação de materiais ou pessoas."}
+{"input": "O que é `Número`?", "output": "É um valor numérico."}
+{"input": "O que é `Neonatologia`?", "output": "É a especialidade médica que trata de recém-nascidos."}
+{"input": "O que é `Observação`?", "output": "É o ato de observar algo ou alguém."}
+{"input": "O que é `Ortopedia`?", "output": "É a especialidade médica que trata de problemas nos ossos e músculos."}
+{"input": "O que é `PROCEDIMENTOS DIAGNÓSTICOS TERAPÊUTICOS`?", "output": "São procedimentos que visam diagnosticar ou tratar uma doença."}
+{"input": "O que é `Processo Administrativo de Compra (Módulo Compras)`?", "output": "É o processo de compra de bens ou serviços."}
+{"input": "O que é `Parcela`?", "output": "É uma parte de um valor total."}
+{"input": "O que é `Planejado`?", "output": "É o que foi planejado."}
+{"input": "O que é `Quantidade`?", "output": "É um valor numérico."}
+{"input": "O que é `Recém Nascido`?", "output": "É uma criança que acabou de nascer."}
+{"input": "O que é `Requisição de Material`?", "output": "É um documento que solicita a requisição de um material."}
+{"input": "O que é `Recipiente de Coleta`?", "output": "É um recipiente utilizado para coletar amostras."}
+{"input": "O que é `ADMINISTRAÇÃO DE PESSOAL`?", "output": "É a área que gerencia os funcionários de uma organização."}
+{"input": "O que é `APOIO RESIDENTES`?", "output": "É o apoio dado aos residentes de uma instituição."}
+{"input": "O que é `Solicitação de Compra`?", "output": "É um documento que solicita a compra de um bem ou serviço."}
+{"input": "O que é `Solicitação de Serviço`?", "output": "É um documento que solicita a prestação de um serviço."}
+{"input": "O que é `Sala de Observação`?", "output": "É a sala onde os pacientes são observados."}
+{"input": "O que é `Sala de Recuperação`?", "output": "É a sala onde os pacientes se recuperam de uma cirurgia."}
+{"input": "O que é `Solicitação`?", "output": "É o ato de solicitar algo."}
+{"input": "O que é `Serviço`?", "output": "É a prestação de um serviço."}
+{"input": "O que é `Solicitação de Exame`?", "output": "É o documento que solicita a realização de um exame."}
+{"input": "O que é `SISTEMA DE CONTROLE DE ESTOQUE`?", "output": "É o sistema que controla o estoque de materiais."}
+{"input": "O que é `SISTEMA DE COMPRAS`?", "output": "É o sistema que gerencia o processo de compras."}
+{"input": "O que é `Serviço de Nutrição e Dietética`?", "output": "É o serviço que presta cuidados nutricionais a pacientes."}
+{"input": "O que é `Sinais e sintomas médicos`?", "output": "São sinais e sintomas de doenças."}
+{"input": "O que é `AIDS-SIDA`?", "output": "É a sigla para Síndrome da Imunodeficiência Adquirida."}
+{"input": "O que é `Serviço Auxiliar de Diagnóstico e Terapia`?", "output": "É o serviço que auxilia no diagnóstico e tratamento de doenças."}
+{"input": "O que é `Serviço de Arquivo Médico e Informações de Saúde`?", "output": "É o serviço que gerencia os arquivos médicos e informações de saúde."}
+{"input": "O que é `Termo de Responsabilidade`?", "output": "É um documento que formaliza a responsabilidade sobre algo ou alguém."}
+{"input": "O que é `Tramite Interno`?", "output": "É o trâmite interno de um documento ou processo."}
+{"input": "O que é `Unidade`?", "output": "É uma unidade de medida."}
+{"input": "O que é `Unidade Funcional`?", "output": "É uma unidade de uma organização."}
+{"input": "O que é `Unidade Medida Médicas`?", "output": "São unidades de medida utilizadas na área médica."}
+{"input": "O que é `Unidade de Cuidados Minimos`?", "output": "É uma unidade de internação que atende pacientes que necessitam de cuidados mínimos."}
+{"input": "O que é `Unidade de Terapia Intensiva`?", "output": "É uma unidade de internação que atende pacientes em estado grave."}
+{"input": "O que é `UTI Pediátrica`?", "output": "É uma unidade de terapia intensiva que atende crianças."}
+{"input": "O que é `Valor`?", "output": "É um valor numérico."}
+{"input": "O que é `Vínculo`?", "output": "É um relacionamento entre pessoas ou organizações."}
+{"input": "O que é `Vice-presidência Administrativa`?", "output": "É a área que gerencia as atividades administrativas de uma organização."}
+{"input": "O que é `Vice-presidência Médica`?", "output": "É a área que gerencia as atividades médicas de uma organização."}
+{"input": "O que é `PACS`?", "output": "PACS é a sigla para Picture Archiving and Communication System, que é um sistema de comunicação e arquivamento de imagens médicas."}
+{"input": "O que é `CIS`?", "output": "CIS é a sigla para Clinical Information System, que é um sistema de informação clínica."}
+{"input": "O que é `LIS`?", "output": "LIS é a sigla para Laboratory Information System, que é um sistema de informação de laboratório."}
+{"input": "O que é `RIS`?", "output": "RIS é a sigla para Radiology Information System, que é um sistema de informação de radiologia."}
+{"input": "O que é `HIS`?", "output": "HIS é a sigla para Hospital Information System, que é um sistema informatizado de gestão hospitalar."}
+{"input": "Qual a sigla para `Autorização de Fornecimento`?", "output": "AF."}
+{"input": "Qual a sigla para `Almoxarifado`?", "output": "Almox."}
+{"input": "Qual a sigla para `Anticoagulante`?", "output": "ATC."}
+{"input": "Qual a sigla para `Atendimento`?", "output": "ATD."}
+{"input": "Qual a sigla para `AGENDAMENTO E MARCAÇÃO DE CONSULTAS`?", "output": "AAC."}
+{"input": "Qual a sigla para `SISTEMA DE BANCO DE SANGUE`?", "output": "ABS."}
+{"input": "Qual a sigla para `SISTEMAS DE EXAMES E LAUDOS`?", "output": "AEL."}
+{"input": "Qual a sigla para `SISTEMA DE ESCALA DE SERVIDORES`?", "output": "AES."}
+{"input": "Qual a sigla para `SISTEMA DE FARMÁCIA`?", "output": "AFA."}
+{"input": "Qual a sigla para `HOSPITAL DIA`?", "output": "AHD."}
+{"input": "Qual a sigla para `Autorização de Internação Hospitalar`?", "output": "AIH."}
+{"input": "Qual a sigla para `SISTEMA DE INTERNAÇÃO`?", "output": "AIN."}
+{"input": "Qual a sigla para `IDENTIFICAÇÃO DE PACIENTES`?", "output": "AIP."}
+{"input": "Qual a sigla para `SISTEMA DE NUTRIÇÃO`?", "output": "ANU."}
+{"input": "Qual a sigla para `Boletim de Ocorrência`?", "output": "BO."}
+{"input": "Qual a sigla para `Boletim de Atendimento`?", "output": "BA."}
+{"input": "Qual a sigla para `Bloco Cirúrgico`?", "output": "BC."}
+{"input": "Qual a sigla para `Convite`?", "output": "CV."}
+{"input": "Qual a sigla para `Concorrência`?", "output": "CC."}
+{"input": "Qual a sigla para `Complemento`?", "output": "CP."}
+{"input": "Qual a sigla para `Comunicação Interna`?", "output": "CI."}
+{"input": "Qual a sigla para `Centro Obstétrico`?", "output": "CO."}
+{"input": "Qual a sigla para `Centro Cirúrgico Ambulatorial`?", "output": "CCA."}
+{"input": "Qual a sigla para `Classificação (ou código) Internacional de Doenças`?", "output": "CID."}
+{"input": "Qual a sigla para `SISTEMA DE CONTROLE DE PROJETOS`?", "output": "CPR."}
+{"input": "Qual a sigla para `SISTEMA DE SEGURANÇA`?", "output": "CSE."}
+{"input": "Qual a sigla para `Centro de Terapia Intensiva`?", "output": "CTI."}
+{"input": "Qual a sigla para `Cirurgia Geral`?", "output": "CIG."}
+{"input": "Qual a sigla para `Cancelado`?", "output": "Canc."}
+{"input": "Qual a sigla para `Código Especial de Registro para Internação Hospitalar`?", "output": "CERIH."}
+{"input": "Qual a sigla para `Dispensa de Licitação`?", "output": "DL."}
+{"input": "Qual a sigla para `Declaração de Nascimento`?", "output": "DN."}
+{"input": "Qual a sigla para `Declaração de Óbito`?", "output": "DO."}
+{"input": "Qual a sigla para `Delegacia de Polícia`?", "output": "DP."}
+{"input": "Qual a sigla para `Departamento Médico Legal`?", "output": "DML."}
+{"input": "Qual a sigla para `Empenho`?", "output": "Emp."}
+{"input": "Qual a sigla para `SISTEMA DE CONFERÊNCIA ELETRÔNICA DA ENFERMAGEM`?", "output": "ECE."}
+{"input": "Qual a sigla para `PRESCRIÇÃO DE ENFERMAGEM`?", "output": "EPE."}
+{"input": "Qual a sigla para `Entrega`?", "output": "Entg."}
+{"input": "Qual a sigla para `Estoque`?", "output": "Estq."}
+{"input": "Qual a sigla para `Fator de Conversão`?", "output": "FC."}
+{"input": "Qual a sigla para `Faturamento`?", "output": "FAT."}
+{"input": "Qual a sigla para `SISTEMA CENTRO DE CUSTOS`?", "output": "FCC."}
+{"input": "Qual a sigla para `SISTEMA DE CONTAS A PAGAR`?", "output": "FCP."}
+{"input": "Qual a sigla para `SISTEMA DE CUSTOS`?", "output": "FCU."}
+{"input": "Qual a sigla para `FATURAMENTO CONVÊNIOS`?", "output": "FFC."}
+{"input": "Qual a sigla para `SISTEMA DE ORÇAMENTO`?", "output": "FSO."}
+{"input": "Qual a sigla para `Fornecedor`?", "output": "Forn."}
+{"input": "Qual a sigla para `SISTEMAS GENÉRICOS - TODOS DO BULL`?", "output": "GEN."}
+{"input": "Qual a sigla para `Ginecologia`?", "output": "GIN."}
+{"input": "Qual a sigla para `Informações Gerenciais`?", "output": "IG."}
+{"input": "Qual a sigla para `Item da Autorização de Fornecimento`?", "output": "IAF."}
+{"input": "Qual a sigla para `Inexibilidade de Licitação`?", "output": "Inex."}
+{"input": "Qual a sigla para `Hospital de Clinicas de Porto Alegre`?", "output": "HCPA."}
+{"input": "Qual a sigla para `Hospital Dia`?", "output": "HD."}
+{"input": "Qual a sigla para `Licitação`?", "output": "Lct."}
+{"input": "Qual a sigla para `Material`?", "output": "Mat."}
+{"input": "Qual a sigla para `AMBULATORIOS`?", "output": "MAM."}
+{"input": "Qual a sigla para `BLOCO CIRÚRGICO`?", "output": "MBC."}
+{"input": "Qual a sigla para `SISTEMA DE CONTROLE DE INFECÇÃO`?", "output": "MCI."}
+{"input": "Qual a sigla para `SISTEMA DA PERINATOLOGIA`?", "output": "MCO."}
+{"input": "Qual a sigla para `SISTEMA DE PROTOCOLOS`?", "output": "MPA."}
+{"input": "Qual a sigla para `PRESCRIÇÃO MÉDICA`?", "output": "MPM."}
+{"input": "Qual a sigla para `PROCEDIMENTOS TERAPÊUTICOS`?", "output": "MPT."}
+{"input": "Qual a sigla para `Medicina Interna`?", "output": "ΜΕΙ."}
+{"input": "Qual a sigla para `Medicamento`?", "output": "Mdto."}
+{"input": "Qual a sigla para `Movimento`?", "output": "Mvto."}
+{"input": "Qual a sigla para `Número`?", "output": "Nro."}
+{"input": "Qual a sigla para `Neonatologia`?", "output": "NEO."}
+{"input": "Qual a sigla para `Observação`?", "output": "Obs."}
+{"input": "Qual a sigla para `Ortopedia`?", "output": "ORTO."}
+{"input": "Qual a sigla para `PROCEDIMENTOS DIAGNÓSTICOS TERAPÊUTICOS`?", "output": "PDT."}
+{"input": "Qual a sigla para `Processo Administrativo de Compra`?", "output": "PAC."}
+{"input": "Qual a sigla para `Parcela`?", "output": "Parc."}
+{"input": "Qual a sigla para `Planejado`?", "output": "Plan."}
+{"input": "Qual a sigla para `Quantidade`?", "output": "Qtd."}
+{"input": "Qual a sigla para `Recém Nascido`?", "output": "RN."}
+{"input": "Qual a sigla para `Requisição de Material`?", "output": "RM."}
+{"input": "Qual a sigla para `Recipiente de Coleta`?", "output": "RCO."}
+{"input": "Qual a sigla para `ADMINISTRAÇÃO DE PESSOAL`?", "output": "RAP."}
+{"input": "Qual a sigla para `APOIO RESIDENTES`?", "output": "RAR."}
+{"input": "Qual a sigla para `Solicitação de Compra`?", "output": "SC."}
+{"input": "Qual a sigla para `Solicitação de Serviço`?", "output": "SS."}
+{"input": "Qual a sigla para `Sala de Observação`?", "output": "SO."}
+{"input": "Qual a sigla para `Sala de Recuperação`?", "output": "SR."}
+{"input": "Qual a sigla para `Solicitação`?", "output": "Sic."}
+{"input": "Qual a sigla para `Serviço`?", "output": "Ser."}
+{"input": "Qual a sigla para `Solicitação de Exame`?", "output": "SOE."}
+{"input": "Qual a sigla para `SISTEMA DE CONTROLE DE ESTOQUE`?", "output": "SCE."}
+{"input": "Qual a sigla para `SISTEMA DE COMPRAS`?", "output": "SCO."}
+{"input": "Qual a sigla para `Serviço de Nutrição e Dietética`?", "output": "SND."}
+{"input": "Qual a sigla para `Sinais e sintomas médicos`?", "output": "SSM."}
+{"input": "Qual a sigla para `AIDS-SIDA`?", "output": "SID."}
+{"input": "Qual a sigla para `Serviço Auxiliar de Diagnóstico e Terapia`?", "output": "SADT."}
+{"input": "Qual a sigla para `Serviço de Arquivo Médico e Informações de Saúde`?", "output": "SAMIS."}
+{"input": "Qual a sigla para `Termo de Responsabilidade`?", "output": "TR."}
+{"input": "Qual a sigla para `Tramite Interno`?", "output": "Tram Int."}
+{"input": "Qual a sigla para `Unidade`?", "output": "Und."}
+{"input": "Qual a sigla para `Unidade Funcional`?", "output": "Unf."}
+{"input": "Qual a sigla para `Unidade Medida Médicas`?", "output": "UMM."}
+{"input": "Qual a sigla para `Unidade de Cuidados Minimos`?", "output": "UCM."}
+{"input": "Qual a sigla para `Unidade de Terapia Intensiva`?", "output": "UTI."}
+{"input": "Qual a sigla para `UTI Pediátrica`?", "output": "UTIP."}
+{"input": "Qual a sigla para `Valor`?", "output": "Vir."}
+{"input": "Qual a sigla para `Vinculo`?", "output": "Vin."}
+{"input": "Qual a sigla para `Vice-presidência Administrativa`?", "output": "VPA."}
+{"input": "Qual a sigla para `Vice-presidência Médica`?", "output": "VPM."}
+{"input": "O que é `N` na tabela AGH_ATENDIMENTO?", "output": "Nascimento."}
+{"input": "O que é `A` na tabela AGH_ATENDIMENTO?", "output": "Ambulatório."}
+{"input": "O que é `1` na tabela AGH_ATENDIMENTO?", "output": "Internação."}
+{"input": "O que é `U` na tabela AGH_ATENDIMENTO?", "output": "Urgência."}
+{"input": "O que é `X` na tabela AGH_ATENDIMENTO?", "output": "Externo."}
+{"input": "O que é `D` na tabela AGH_ATENDIMENTO?", "output": "Doador."}
+{"input": "O que é `H` na tabela AGH_ATENDIMENTO?", "output": "Hospital Dia."}
+{"input": "O que é `C` na tabela AGH_ATENDIMENTO?", "output": "Cirurgia."}
+{"input": "O que é `C` na tabela `MPT PROTOCOLO_CUIDADOS`?", "output": "Cuidado."}
+{"input": "O que é `P` na tabela `MPT PROTOCOLO_CUIDADOS`?", "output": "Parâmetro."}
+{"input": "O que é `H` na tabela `MTX_CRIOPRESERVACAO_CPH`?", "output": "HES da criopreservação."}
+{"input": "O que é `A` na tabela `MTX_CRIOPRESERVACAO_CPH`?", "output": "Albumina da criopreservação."}
+{"input": "O que é `D` na tabela `MTX_CRIOPRESERVACAO_CPH`?", "output": "Dimetilsulfóxido da criopreservação."}
+{"input": "O que é `M` na tabela `MTX_CRIOPRESERVACAO_CPH`?", "output": "Método."}
+{"input": "O que é `B` na tabela `MTX_CRIOPRESERVACAO_CPH`?", "output": "Marca da Bolsa utilizada conforme o material."}
+{"input": "O que é um `PACS`?", "output": "Um PACS é um sistema de comunicação e arquivamento de imagens médicas."}
+{"input": "O que é um `CIS`?", "output": "Um CIS é um sistema de informação clínica."}
+{"input": "O que é um `LIS`?", "output": "Um LIS é um sistema de informação de laboratório."}
+{"input": "O que é um `RIS`?", "output": "Um RIS é um sistema de informação de radiologia."}
+{"input": "O que é um `HIS`?", "output": "Um HIS é um sistema informatizado de gestão hospitalar."}
+{"input": "Quais são as funcionalidades de um PACS?", "output": "O PACS oferece imagens em alta resolução, distribuição de resultados facilitada, segurança e redução de custos."}
+{"input": "Qual o objetivo de um CIS?", "output": "O objetivo de um CIS é gerenciar informações clínicas para acompanhar o histórico médico dos pacientes."}
+{"input": "Para que serve um LIS?", "output": "Um LIS serve para gerenciar dados e informações em laboratórios de análises clínicas."}
+{"input": "Para que serve um RIS?", "output": "Um RIS serve para organizar os processos de uma clínica de radiologia."}
+{"input": "Para que serve um HIS?", "output": "Um HIS serve para integrar a comunicação interna e externa de um hospital, gerindo dados de pacientes e procedimentos."}
+{"input": "O que é um sistema `AF`?", "output": "AF significa Autorização de Fornecimento."}
+{"input": "O que é um sistema `Almox`?", "output": "Almox significa Almoxarifado."}
+{"input": "O que é um sistema `ATC`?", "output": "ATC significa Anticoagulante."}
+{"input": "O que é um sistema `ATD`?", "output": "ATD significa Atendimento."}
+{"input": "O que é um sistema `AAC`?", "output": "AAC significa AGENDAMENTO E MARCAÇÃO DE CONSULTAS."}
+{"input": "O que é um sistema `ABS`?", "output": "ABS significa SISTEMA DE BANCO DE SANGUE."}
+{"input": "O que é um sistema `AEL`?", "output": "AEL significa SISTEMAS DE EXAMES E LAUDOS."}
+{"input": "O que é um sistema `AES`?", "output": "AES significa SISTEMA DE ESCALA DE SERVIDORES."}
+{"input": "O que é um sistema `AFA`?", "output": "AFA significa SISTEMA DE FARMÁCIA."}
+{"input": "O que é um sistema `AHD`?", "output": "AHD significa HOSPITAL DIA."}
+{"input": "O que é um sistema `AIH`?", "output": "AIH significa Autorização de Internação Hospitalar."}
+{"input": "O que é um sistema `AIN`?", "output": "AIN significa SISTEMA DE INTERNAÇÃO."}
+{"input": "O que é um sistema `AIP`?", "output": "AIP significa IDENTIFICAÇÃO DE PACIENTES."}
+{"input": "O que é um sistema `ANU`?", "output": "ANU significa SISTEMA DE NUTRIÇÃO."}
+{"input": "O que é um sistema `BC`?", "output": "BC significa Bloco Cirúrgico."}
+{"input": "O que é um sistema `CV`?", "output": "CV significa Convite."}
+{"input": "O que é um sistema `CC`?", "output": "CC significa Concorrência."}
+{"input": "O que é um sistema `CP`?", "output": "CP significa Complemento."}
+{"input": "O que é um sistema `CI`?", "output": "CI significa Comunicação Interna."}
+{"input": "O que é um sistema `CO`?", "output": "CO significa Centro Obstétrico."}
+{"input": "O que é um sistema `CCA`?", "output": "CCA significa Centro Cirúrgico Ambulatorial."}
+{"input": "O que é um sistema `CID`?", "output": "CID significa Classificação (ou código) Internacional de Doenças."}
+{"input": "O que é um sistema `CPR`?", "output": "CPR significa SISTEMA DE CONTROLE DE PROJETOS."}
+{"input": "O que é um sistema `CSE`?", "output": "CSE significa SISTEMA DE SEGURANÇA."}
+{"input": "O que é um sistema `CTI`?", "output": "CTI significa Centro de Terapia Intensiva."}
+{"input": "O que é um sistema `CIG`?", "output": "CIG significa Cirurgia Geral."}
+{"input": "O que é um sistema `Canc`?", "output": "Canc significa Cancelado."}
+{"input": "O que é um sistema `CERIH`?", "output": "CERIH significa Código Especial de Registro para Internação Hospitalar."}
+{"input": "O que é um sistema `DL`?", "output": "DL significa Dispensa de Licitação."}
+{"input": "O que é um sistema `DN`?", "output": "DN significa Declaração de Nascimento."}
+{"input": "O que é um sistema `DO`?", "output": "DO significa Declaração de Óbito."}
+{"input": "O que é um sistema `DP`?", "output": "DP significa Delegacia de Polícia."}
+{"input": "O que é um sistema `DML`?", "output": "DML significa Departamento Médico Legal."}
+{"input": "O que é um sistema `Emp`?", "output": "Emp significa Empenho."}
+{"input": "O que é um sistema `ECE`?", "output": "ECE significa SISTEMA DE CONFERÊNCIA ELETRÔNICA DA ENFERMAGEM."}
+{"input": "O que é um sistema `EPE`?", "output": "EPE significa PRESCRIÇÃO DE ENFERMAGEM."}
+{"input": "O que é um sistema `Entg`?", "output": "Entg significa Entrega."}
+{"input": "O que é um sistema `Estq`?", "output": "Estq significa Estoque."}
+{"input": "O que é um sistema `FC`?", "output": "FC significa Fator de Conversão."}
+{"input": "O que é um sistema `FAT`?", "output": "FAT significa Faturamento."}
+{"input": "O que é um sistema `FCC`?", "output": "FCC significa SISTEMA CENTRO DE CUSTOS."}
+{"input": "O que é um sistema `FCP`?", "output": "FCP significa SISTEMA DE CONTAS A PAGAR."}
+{"input": "O que é um sistema `FCU`?", "output": "FCU significa SISTEMA DE CUSTOS."}
+{"input": "O que é um sistema `FFC`?", "output": "FFC significa FATURAMENTO CONVÊNIOS."}
+{"input": "O que é um sistema `FSO`?", "output": "FSO significa SISTEMA DE ORÇAMENTO."}
+{"input": "O que é um sistema `Forn`?", "output": "Forn significa Fornecedor."}
+{"input": "O que é um sistema `GEN`?", "output": "GEN significa SISTEMAS GENÉRICOS - TODOS DO BULL."}
+{"input": "O que é um sistema `GIN`?", "output": "GIN significa Ginecologia."}
+{"input": "O que é um sistema `IG`?", "output": "IG significa Informações Gerenciais."}
+{"input": "O que é um sistema `IAF`?", "output": "IAF significa Item da Autorização de Fornecimento."}
+{"input": "O que é um sistema `Inex`?", "output": "Inex significa Inexibilidade de Licitação."}
+{"input": "O que é um sistema `HCPA`?", "output": "HCPA significa Hospital de Clinicas de Porto Alegre."}
+{"input": "O que é um sistema `HD`?", "output": "HD significa Hospital Dia."}
+{"input": "O que é um sistema `Lct`?", "output": "Lct significa Licitação."}
+{"input": "O que é um sistema `Mat`?", "output": "Mat significa Material."}
+{"input": "O que é um sistema `MAM`?", "output": "MAM significa AMBULATORIOS."}
+{"input": "O que é um sistema `MBC`?", "output": "MBC significa BLOCO CIRÚRGICO."}
+{"input": "O que é um sistema `MCI`?", "output": "MCI significa SISTEMA DE CONTROLE DE INFECÇÃO."}
+{"input": "O que é um sistema `MCO`?", "output": "MCO significa SISTEMA DA PERINATOLOGIA (CO + NEONATOLOGIA)."}
+{"input": "O que é um sistema `MPA`?", "output": "MPA significa SISTEMA DE PROTOCOLOS."}
+{"input": "O que é um sistema `MPM`?", "output": "MPM significa PRESCRIÇÃO MÉDICA."}
+{"input": "O que é um sistema `MPT`?", "output": "MPT significa PROCEDIMENTOS TERAPÊUTICOS."}
+{"input": "O que é um sistema `ΜΕΙ`?", "output": "ΜΕΙ significa Medicina Interna."}
+{"input": "O que é um sistema `Mdto`?", "output": "Mdto significa Medicamento."}
+{"input": "O que é um sistema `Mvto`?", "output": "Mvto significa Movimento."}
+{"input": "O que é um sistema `Nro`?", "output": "Nro significa Número."}
+{"input": "O que é um sistema `NEO`?", "output": "NEO significa Neonatologia."}
+{"input": "O que é um sistema `Obs`?", "output": "Obs significa Observação."}
+{"input": "O que é um sistema `ORTO`?", "output": "ORTO significa Ortopedia."}
+{"input": "O que é um sistema `PDT`?", "output": "PDT significa PROCEDIMENTOS DIAGNÓSTICOS TERAPÊUTICOS."}
+{"input": "O que é um sistema `PAC`?", "output": "PAC significa Processo Administrativo de Compra (Módulo Compras)."}
+{"input": "O que é um sistema `Parc`?", "output": "Parc significa Parcela."}
+{"input": "O que é um sistema `Plan`?", "output": "Plan significa Planejado."}
+{"input": "O que é um sistema `Qtd`?", "output": "Qtd significa Quantidade."}
+{"input": "O que é um sistema `RN`?", "output": "RN significa Recém Nascido."}
+{"input": "O que é um sistema `RM`?", "output": "RM significa Requisição de Material."}
+{"input": "O que é um sistema `RCO`?", "output": "RCO significa Recipiente de Coleta."}
+{"input": "O que é um sistema `RAP`?", "output": "RAP significa ADMINISTRAÇÃO DE PESSOAL."}
+{"input": "O que é um sistema `RAR`?", "output": "RAR significa APOIO RESIDENTES."}
+{"input": "O que é um sistema `SC`?", "output": "SC significa Solicitação de Compra."}
+{"input": "O que é um sistema `SS`?", "output": "SS significa Solicitação de Serviço."}
+{"input": "O que é um sistema `SO`?", "output": "SO significa Sala de Observação."}
+{"input": "O que é um sistema `SR`?", "output": "SR significa Sala de Recuperação."}
+{"input": "O que é um sistema `Sic`?", "output": "Sic significa Solicitação."}
+{"input": "O que é um sistema `Ser`?", "output": "Ser significa Serviço."}
+{"input": "O que é um sistema `SOE`?", "output": "SOE significa Solicitação de Exame."}
+{"input": "O que é um sistema `SCE`?", "output": "SCE significa SISTEMA DE CONTROLE DE ESTOQUE."}
+{"input": "O que é um sistema `SCO`?", "output": "SCO significa SISTEMA DE COMPRAS."}
+{"input": "O que é um sistema `SND`?", "output": "SND significa Serviço de Nutrição e Dietética."}
+{"input": "O que é um sistema `SSM`?", "output": "SSM significa Sinais e sintomas médicos."}
+{"input": "O que é um sistema `SID`?", "output": "SID significa AIDS-SIDA."}
+{"input": "O que é um sistema `SADT`?", "output": "SADT significa Serviço Auxiliar de Diagnóstico e Terapia."}
+{"input": "O que é um sistema `SAMIS`?", "output": "SAMIS significa Serviço de Arquivo Médico e Informações de Saúde."}
+{"input": "O que é um sistema `TR`?", "output": "TR significa Termo de Responsabilidade."}
+{"input": "O que é um sistema `Tram Int`?", "output": "Tram Int significa Tramite Interno."}
+{"input": "O que é um sistema `Und`?", "output": "Und significa Unidade."}
+{"input": "O que é um sistema `Unf`?", "output": "Unf significa Unidade Funcional."}
+{"input": "O que é um sistema `UMM`?", "output": "UMM significa Unidade Medida Médicas."}
+{"input": "O que é um sistema `UCM`?", "output": "UCM significa Unidade de Cuidados Minimos (leito para recuperação de até 72 horas)."}
+{"input": "O que é um sistema `UTI`?", "output": "UTI significa Unidade de Terapia Intensiva."}
+{"input": "O que é um sistema `UTIP`?", "output": "UTIP significa UTI Pediátrica."}
+{"input": "O que é um sistema `Vir`?", "output": "Vir significa Valor."}
+{"input": "O que é um sistema `Vin`?", "output": "Vin significa Vinculo."}
+{"input": "O que é um sistema `VPA`?", "output": "VPA significa Vice-presidência Administrativa."}
+{"input": "O que é um sistema `VPM`?", "output": "VPM significa Vice-presidência Médica."}

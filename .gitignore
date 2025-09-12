@@ -1,3 +1,8 @@
+llama.cpp/
+output_hf_model/
+output_hf_model-final/
+novo_modelo.gguf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
