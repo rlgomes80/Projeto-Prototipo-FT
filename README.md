@@ -153,6 +153,13 @@ pip install huggingface_hub[hf_xet] transformers datasets bitsandbytes peft acce
 | `sentencepiece` | 0.2.1 | Tokenização |
 | `mistral_common` | 1.8.4 | Utilitários para modelos Mistral |
 
+## Instalando Modelo Treinado no Ollama
+```cmd
+ollama create Phi-3-mini-4k-instruct-APS -f Modelfile
+```
+
+**ATENÇÃO:** Lembre-se de ajustar o arquivo `Modelfile` conforme os parâmetros do `.env`
+
 ## Características do Projeto
 
 ### Otimizações Implementadas
