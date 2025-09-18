@@ -35,7 +35,7 @@ def main():
     NOME_MODELO_BASE = "microsoft/Phi-3-mini-4k-instruct"
 
     # Nome do arquivo de dataset no formato JSONL.
-    NOME_ARQUIVO_DATASET = "fine_tuning_saude_2000.jsonl"
+    NOME_ARQUIVO_DATASET = "perguntas_respostas_APS_2000.jsonl"
 
     # Diretórios para salvar os artefatos do treinamento.
     DIR_SAIDA_ADAPTADOR_LORA = "output_hf_model"
