@@ -1,0 +1,27 @@
+Resumo Explicativo do Log de Execução
+O log detalha, passo a passo, a execução bem-sucedida do processo de fine-tuning e conversão do modelo de linguagem. O processo pode ser dividido nas seguintes etapas:
+
+1. Preparação e Carregamento (Início do Log)
+- Início do Processo: A execução começa com a mensagem "Iniciando o processo de fine-tuning...".
+- Carregamento do Modelo: O modelo base microsoft/Phi-3-mini-4k-instruct é carregado da internet. O log mostra um aviso sobre a ausência do pacote flash-attention, que é uma otimização de performance, mas sua falta não impede a execução.
+- Configuração do LoRA: O script configura o adaptador LoRA. É destacado um ponto crucial da eficiência do LoRA: de um total de 3.8 bilhões de parâmetros do modelo, apenas 25 milhões (cerca de 0.65%) foram marcados como treináveis, economizando uma quantidade massiva de recursos computacionais.
+
+2. Processamento dos Dados
+- Dataset: O arquivo de dados perguntas_respostas_APS_2000.jsonl é carregado e processado com sucesso. O log confirma que todos os 2000 exemplos do arquivo foram preparados para o treinamento.
+
+3. Treinamento do Modelo
+- Início do Treinamento: O treinamento é iniciado, e o log exibe uma barra de progresso para os 1500 passos planejados.
+- Métricas de Aprendizado: Durante o treinamento, o log imprime métricas a cada 25 passos. A mais importante é o 'loss' (perda), que indica o quão bem o modelo está aprendendo.
+-- O 'loss' inicial foi de 1.1234.
+-- Ao longo das 3 épocas (ciclos de treinamento), o valor do 'loss' diminui progressivamente, indicando que o modelo estava aprendendo e se ajustando aos dados de saúde. Por exemplo, na metade do processo, o 'loss' já estava em torno de 0.0563.
+-- Ao final da terceira época, o 'loss' se estabilizou em torno de 0.0569.
+- Conclusão do Treinamento: O treinamento foi concluído após 3 épocas. O tempo total de treinamento foi de aproximadamente 1 hora e 29 minutos (5369.5315 segundos).
+
+4. Salvamento e Conversão
+- Salvando o Adaptador: Após o treino, o adaptador LoRA treinado é salvo na pasta output_hf_model.
+- Fusão (Merge): O script então carrega o modelo base novamente e o funde com o adaptador LoRA recém-treinado. O modelo final, já especializado, é salvo na pasta output_hf_model-final.
+- Conversão para GGUF: A etapa final é iniciada para converter o modelo para o formato GGUF.
+-- O log detalha a conversão das camadas do modelo, a maioria sendo quantizada de torch.float16 para Q8_0, um formato de 8 bits que oferece um bom equilíbrio entre performance e tamanho.
+-- Ao final, o arquivo novo_modelo.gguf é criado com sucesso, tendo um tamanho total de aproximadamente 4.1 GB.
+
+Conclusão do Log: A mensagem final "Processo de fine-tuning e conversão finalizado!" confirma que todas as etapas foram executadas sem erros, resultando no modelo especializado e otimizado novo_modelo.gguf.

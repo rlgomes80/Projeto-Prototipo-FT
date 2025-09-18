@@ -1,0 +1,38 @@
+Resumo Explicativo do Script fine_tuning_saude.py
+Este script Python automatiza o processo de fine-tuning (ajuste fino) de um modelo de linguagem grande (LLM), especificamente o microsoft/Phi-3-mini-4k-instruct, para uma tarefa especializada no domínio da saúde no Brasil. O objetivo final é obter um modelo mais leve e otimizado no formato GGUF, que é ideal para execução em CPUs e hardware com menos recursos.
+
+O processo é dividido em 9 etapas principais:
+
+1. Definição de Variáveis e Configurações Iniciais:
+O script começa definindo variáveis importantes, como o nome do modelo base a ser baixado do Hugging Face, o nome do arquivo de dados para treinamento (perguntas_respostas_APS_2000.jsonl), e os diretórios onde os resultados do treinamento e o modelo final serão salvos.
+
+2. Configuração de Quantização (BitsAndBytes):
+Para economizar memória VRAM da GPU, o script utiliza a técnica de quantização. Ele configura o modelo para ser carregado em 4 bits (load_in_4bit=True), o que reduz drasticamente o seu tamanho em memória, permitindo que o treinamento seja executado em hardware mais modesto.
+
+3. Carregamento do Tokenizador e Modelo Base:
+Nesta etapa, o script carrega o modelo Phi-3-mini-4k-instruct e seu respectivo tokenizador. O tokenizador é ajustado para lidar corretamente com o padding (preenchimento), uma etapa essencial para o treinamento em lotes.
+
+4. Configuração e Aplicação do LoRA (PEFT):
+Em vez de treinar todos os bilhões de parâmetros do modelo (o que seria computacionalmente inviável para a maioria dos usuários), o script emprega a técnica de LoRA (Low-Rank Adaptation). Ele "congela" o modelo original e insere pequenas camadas "adaptadoras" que são treinadas. Isso reduz o número de parâmetros treináveis de bilhões para apenas alguns milhões, tornando o processo muito mais eficiente.
+
+5. Carregamento e Preparação do Dataset:
+O script carrega o conjunto de dados a partir do arquivo JSONL local. Em seguida, uma função formata cada exemplo do dataset para seguir o padrão de chat do modelo Phi-3, que é <|user|>\nPERGUNTA<|end|>\n<|assistant|>\nRESPOSTA<|end|>. Por fim, os textos formatados são convertidos em números (tokens) que o modelo pode entender.
+
+6. Configuração dos Argumentos de Treinamento:
+Aqui são definidos todos os hiperparâmetros para o treinamento, como:
+- num_train_epochs: O número de vezes que o modelo verá o dataset completo (3 épocas).
+- per_device_train_batch_size: O tamanho do lote de dados (batch size), definido como 1 para economizar VRAM.
+- gradient_accumulation_steps: Acumula gradientes para simular um batch size maior, melhorando a estabilidade do treino.
+- optim: Utiliza o otimizador paged_adamw_8bit, que é eficiente em termos de memória.
+- learning_rate: A taxa de aprendizado que controla o tamanho dos ajustes nos pesos do modelo.
+
+7. Treinamento do Modelo:
+Com tudo configurado, o Trainer da biblioteca transformers é inicializado e o comando trainer.train() inicia o processo de ajuste fino. Ao final, o adaptador LoRA treinado é salvo no disco.
+
+8. Merge (Fusão) do Modelo Base com o Adaptador LoRA:
+Após o treinamento, o script realiza a fusão do adaptador LoRA (que contém o conhecimento específico da saúde) com o modelo base original. O resultado é um novo modelo completo e autônomo, que é então salvo no diretório de saída final.
+
+9. Conversão para o Formato GGUF:
+A etapa final é a conversão do modelo treinado para o formato GGUF. Este formato é o padrão utilizado pelo popular framework llama.cpp, permitindo que o modelo seja executado de forma eficiente em uma ampla variedade de hardwares, incluindo apenas com CPU. O script executa um comando externo (convert_hf_to_gguf.py) para realizar essa conversão, resultando no arquivo novo_modelo.gguf.
+
+Em resumo, o script é um pipeline completo e bem estruturado que pega um modelo de linguagem genérico, especializa-o com dados de saúde do Brasil usando técnicas eficientes de treinamento (QLoRA) e, por fim, o empacota em um formato otimizado (GGUF) para uso prático.

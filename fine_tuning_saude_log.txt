@@ -1,0 +1,316 @@
+python.exe .\fine_tuning_saude.py
+Iniciando o processo de fine-tuning...
+Carregando o modelo base: microsoft/Phi-3-mini-4k-instruct
+`flash-attention` package not found, consider installing for better performance: No module named 'flash_attn'.
+Current `flash-attention` does not support `window_size`. Either upgrade or use `attn_implementation='eager'`.
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.63s/it]
+Configurando e aplicando o adaptador LoRA...
+trainable params: 25,165,824 || all params: 3,846,245,376 || trainable%: 0.6543
+Carregando e processando o dataset: perguntas_respostas_APS_2000.jsonl
+Generating train split: 2000 examples [00:00, 51256.94 examples/s]
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2000/2000 [00:00<00:00, 3980.28 examples/s]
+Definindo os argumentos de treinamento...
+Iniciando o treinamento do modelo...
+  0%|                                                                                                                                                                                                                                       | 0/1500 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+You are not running the flash-attention implementation, expect numerical differences.
+{'loss': 1.1234, 'grad_norm': 1.0275530815124512, 'learning_rate': 0.0001968, 'epoch': 0.05}
+{'loss': 0.1028, 'grad_norm': 0.5103219747543335, 'learning_rate': 0.0001934666666666667, 'epoch': 0.1}
+{'loss': 0.0709, 'grad_norm': 0.44040438532829285, 'learning_rate': 0.00019013333333333334, 'epoch': 0.15}
+{'loss': 0.072, 'grad_norm': 0.21001622080802917, 'learning_rate': 0.00018680000000000001, 'epoch': 0.2}
+{'loss': 0.0621, 'grad_norm': 0.2052585333585739, 'learning_rate': 0.00018346666666666666, 'epoch': 0.25}
+{'loss': 0.0677, 'grad_norm': 0.3842218220233917, 'learning_rate': 0.00018013333333333334, 'epoch': 0.3}
+{'loss': 0.0659, 'grad_norm': 0.2329917848110199, 'learning_rate': 0.00017680000000000001, 'epoch': 0.35}
+{'loss': 0.0627, 'grad_norm': 0.22452352941036224, 'learning_rate': 0.00017346666666666666, 'epoch': 0.4}
+{'loss': 0.0634, 'grad_norm': 0.13608461618423462, 'learning_rate': 0.00017013333333333334, 'epoch': 0.45}
+{'loss': 0.0626, 'grad_norm': 0.268573522567749, 'learning_rate': 0.0001668, 'epoch': 0.5}
+{'loss': 0.0621, 'grad_norm': 0.18240980803966522, 'learning_rate': 0.0001634666666666667, 'epoch': 0.55}
+{'loss': 0.0613, 'grad_norm': 0.22511135041713715, 'learning_rate': 0.00016013333333333334, 'epoch': 0.6}
+{'loss': 0.0599, 'grad_norm': 0.1707332730293274, 'learning_rate': 0.00015680000000000002, 'epoch': 0.65}
+{'loss': 0.0619, 'grad_norm': 0.3198370337486267, 'learning_rate': 0.00015346666666666667, 'epoch': 0.7}
+{'loss': 0.0613, 'grad_norm': 0.2659398019313812, 'learning_rate': 0.00015013333333333334, 'epoch': 0.75}
+{'loss': 0.0582, 'grad_norm': 0.1944488137960434, 'learning_rate': 0.00014680000000000002, 'epoch': 0.8}
+{'loss': 0.0606, 'grad_norm': 0.19334107637405396, 'learning_rate': 0.0001434666666666667, 'epoch': 0.85}
+{'loss': 0.0602, 'grad_norm': 0.1341036707162857, 'learning_rate': 0.00014013333333333334, 'epoch': 0.9}
+{'loss': 0.0597, 'grad_norm': 0.5692195892333984, 'learning_rate': 0.00013680000000000002, 'epoch': 0.95}
+{'loss': 0.0611, 'grad_norm': 0.14458893239498138, 'learning_rate': 0.00013346666666666667, 'epoch': 1.0}
+{'loss': 0.0583, 'grad_norm': 0.254027783870697, 'learning_rate': 0.00013013333333333332, 'epoch': 1.05}
+{'loss': 0.0604, 'grad_norm': 0.20853419601917267, 'learning_rate': 0.00012680000000000002, 'epoch': 1.1}
+{'loss': 0.0604, 'grad_norm': 0.19249719381332397, 'learning_rate': 0.00012346666666666667, 'epoch': 1.15}
+{'loss': 0.0603, 'grad_norm': 0.1515825390815735, 'learning_rate': 0.00012013333333333334, 'epoch': 1.2}
+{'loss': 0.0599, 'grad_norm': 0.12905950844287872, 'learning_rate': 0.00011679999999999999, 'epoch': 1.25}
+{'loss': 0.0579, 'grad_norm': 0.11556790769100189, 'learning_rate': 0.00011346666666666668, 'epoch': 1.3}
+{'loss': 0.0608, 'grad_norm': 0.12696099281311035, 'learning_rate': 0.00011013333333333333, 'epoch': 1.35}
+{'loss': 0.059, 'grad_norm': 0.15881405770778656, 'learning_rate': 0.00010680000000000001, 'epoch': 1.4}
+{'loss': 0.0565, 'grad_norm': 0.20343445241451263, 'learning_rate': 0.00010346666666666667, 'epoch': 1.45}
+{'loss': 0.0563, 'grad_norm': 0.1874043196439743, 'learning_rate': 0.00010013333333333335, 'epoch': 1.5}
+{'loss': 0.061, 'grad_norm': 0.25175508856773376, 'learning_rate': 9.680000000000001e-05, 'epoch': 1.55}
+{'loss': 0.0591, 'grad_norm': 0.12922024726867676, 'learning_rate': 9.346666666666667e-05, 'epoch': 1.6}
+{'loss': 0.0597, 'grad_norm': 0.163678839802742, 'learning_rate': 9.013333333333333e-05, 'epoch': 1.65}
+{'loss': 0.0601, 'grad_norm': 0.25900623202323914, 'learning_rate': 8.680000000000001e-05, 'epoch': 1.7}
+{'loss': 0.0599, 'grad_norm': 0.13251493871212006, 'learning_rate': 8.346666666666667e-05, 'epoch': 1.75}
+{'loss': 0.0593, 'grad_norm': 0.1528622955083847, 'learning_rate': 8.013333333333333e-05, 'epoch': 1.8}
+{'loss': 0.0596, 'grad_norm': 0.15432696044445038, 'learning_rate': 7.680000000000001e-05, 'epoch': 1.85}
+{'loss': 0.0578, 'grad_norm': 0.1820470243692398, 'learning_rate': 7.346666666666667e-05, 'epoch': 1.9}
+{'loss': 0.0595, 'grad_norm': 0.15133461356163025, 'learning_rate': 7.013333333333333e-05, 'epoch': 1.95}                                                                                                                                                             
+{'loss': 0.0593, 'grad_norm': 0.17548033595085144, 'learning_rate': 6.680000000000001e-05, 'epoch': 2.0}                                                                                                                                                              
+{'loss': 0.0597, 'grad_norm': 0.16532208025455475, 'learning_rate': 6.346666666666667e-05, 'epoch': 2.05}                                                                                                                                                             
+{'loss': 0.0574, 'grad_norm': 0.1726836860179901, 'learning_rate': 6.013333333333334e-05, 'epoch': 2.1}                                                                                                                                                               
+{'loss': 0.0581, 'grad_norm': 0.14073620736598969, 'learning_rate': 5.68e-05, 'epoch': 2.15}                                                                                                                                                                          
+{'loss': 0.0564, 'grad_norm': 0.1661805957555771, 'learning_rate': 5.346666666666667e-05, 'epoch': 2.2}                                                                                                                                                               
+{'loss': 0.058, 'grad_norm': 0.13903969526290894, 'learning_rate': 5.013333333333333e-05, 'epoch': 2.25}                                                                                                                                                              
+{'loss': 0.0593, 'grad_norm': 0.12023050338029861, 'learning_rate': 4.6800000000000006e-05, 'epoch': 2.3}                                                                                                                                                             
+{'loss': 0.0585, 'grad_norm': 0.11596322059631348, 'learning_rate': 4.346666666666667e-05, 'epoch': 2.35}                                                                                                                                                             
+{'loss': 0.0577, 'grad_norm': 0.28976380825042725, 'learning_rate': 4.013333333333333e-05, 'epoch': 2.4}                                                                                                                                                              
+{'loss': 0.0566, 'grad_norm': 0.12576839327812195, 'learning_rate': 3.68e-05, 'epoch': 2.45}                                                                                                                                                                          
+{'loss': 0.0593, 'grad_norm': 0.16537444293498993, 'learning_rate': 3.346666666666667e-05, 'epoch': 2.5}                                                                                                                                                              
+{'loss': 0.0582, 'grad_norm': 0.10589471459388733, 'learning_rate': 3.0133333333333335e-05, 'epoch': 2.55}                                                                                                                                                            
+{'loss': 0.0583, 'grad_norm': 0.1309758424758911, 'learning_rate': 2.6800000000000004e-05, 'epoch': 2.6}                                                                                                                                                              
+{'loss': 0.0572, 'grad_norm': 0.1488381326198578, 'learning_rate': 2.3466666666666667e-05, 'epoch': 2.65}                                                                                                                                                             
+{'loss': 0.0567, 'grad_norm': 0.1468968689441681, 'learning_rate': 2.0133333333333336e-05, 'epoch': 2.7}                                                                                                                                                              
+{'loss': 0.0594, 'grad_norm': 0.12637001276016235, 'learning_rate': 1.6800000000000002e-05, 'epoch': 2.75}                                                                                                                                                            
+{'loss': 0.0571, 'grad_norm': 0.12035241723060608, 'learning_rate': 1.3466666666666666e-05, 'epoch': 2.8}                                                                                                                                                             
+{'loss': 0.0559, 'grad_norm': 0.16693493723869324, 'learning_rate': 1.0133333333333333e-05, 'epoch': 2.85}                                                                                                                                                            
+{'loss': 0.0563, 'grad_norm': 0.19234710931777954, 'learning_rate': 6.800000000000001e-06, 'epoch': 2.9}                                                                                                                                                              
+{'loss': 0.0562, 'grad_norm': 0.19242124259471893, 'learning_rate': 3.466666666666667e-06, 'epoch': 2.95}                                                                                                                                                             
+{'loss': 0.0569, 'grad_norm': 0.1926177740097046, 'learning_rate': 1.3333333333333334e-07, 'epoch': 3.0}                                                                                                                                                              
+{'train_runtime': 5369.5315, 'train_samples_per_second': 1.117, 'train_steps_per_second': 0.279, 'train_loss': 0.07830340115229288, 'epoch': 3.0}                                                                                                                     
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1500/1500 [1:29:29<00:00,  3.58s/it] 
+Treinamento concluído.
+Salvando o adaptador LoRA em 'output_hf_model'...
+Realizando o merge do modelo base com o adaptador LoRA...
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.03s/it]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Salvando o modelo final mesclado em 'output_hf_model-final'...
+C:\Users\rlgom\vscode-workspace\Projeto-Prototipo-FT\.venv\Lib\site-packages\transformers\modeling_utils.py:4086: UserWarning: Attempting to save a model with offloaded modules. Ensure that unallocated cpu memory exceeds the `shard_size` (5GB default)
+  warnings.warn(
+Saving checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:53<00:00, 13.32s/it]
+Iniciando a conversão para o formato GGUF...
+INFO:hf-to-gguf:Loading model: output_hf_model-final
+INFO:hf-to-gguf:Model architecture: Phi3ForCausalLM
+INFO:gguf.gguf_writer:gguf: This GGUF file is for Little Endian only
+INFO:hf-to-gguf:Exporting model...
+INFO:hf-to-gguf:gguf: loading model weight map from 'model.safetensors.index.json'
+INFO:hf-to-gguf:gguf: loading model part 'model-00001-of-00004.safetensors'
+INFO:hf-to-gguf:token_embd.weight,         torch.float16 --> Q8_0, shape = {3072, 32064}
+INFO:hf-to-gguf:blk.0.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.0.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.0.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.0.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.0.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.0.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.1.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.1.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.1.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.1.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.1.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.1.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.2.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.2.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.2.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.2.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.2.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.2.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.3.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.3.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.3.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.3.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.3.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.3.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.4.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.4.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.4.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.4.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.4.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.4.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.5.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.5.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.5.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.5.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.5.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.5.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.6.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.6.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.6.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.6.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.6.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.6.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.7.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.7.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.7.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:gguf: loading model part 'model-00002-of-00004.safetensors'
+INFO:hf-to-gguf:blk.10.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.10.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.10.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.10.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.10.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.10.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.11.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.11.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.11.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.11.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.11.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.11.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.12.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.12.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.12.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.12.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.12.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.12.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.13.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.13.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.13.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.13.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.13.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.13.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.14.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.14.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.14.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.14.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.14.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.14.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.15.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.15.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.15.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.15.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.15.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.15.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.16.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.16.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.7.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.7.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.7.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.8.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.8.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.8.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.8.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.8.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.8.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.9.attn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.9.ffn_down.weight,     torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.9.ffn_up.weight,       torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.9.ffn_norm.weight,     torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.9.attn_output.weight,  torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.9.attn_qkv.weight,     torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:gguf: loading model part 'model-00003-of-00004.safetensors'
+INFO:hf-to-gguf:blk.16.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.16.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.16.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.16.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.17.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.17.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.17.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.17.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.17.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.17.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.18.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.18.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.18.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.18.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.18.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.18.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.19.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.19.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.19.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.19.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.19.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.19.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.20.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.20.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.20.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.20.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.20.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.20.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.21.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.21.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.21.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.21.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.21.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.21.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.22.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.22.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.22.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.22.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.22.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.22.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.23.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.23.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.23.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.23.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.23.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.23.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.24.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.24.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.24.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.24.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.24.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.24.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.25.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:gguf: loading model part 'model-00004-of-00004.safetensors'
+INFO:hf-to-gguf:output.weight,             torch.float16 --> Q8_0, shape = {3072, 32064}
+INFO:hf-to-gguf:blk.25.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.25.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.25.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.25.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.25.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.26.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.26.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.26.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.26.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.26.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.26.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.27.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.27.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.27.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.27.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.27.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.27.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.28.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.28.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.28.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.28.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.28.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.28.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.29.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.29.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.29.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.29.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.29.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.29.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.30.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.30.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.30.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.30.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.30.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.30.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:blk.31.attn_norm.weight,   torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.31.ffn_down.weight,    torch.float16 --> Q8_0, shape = {8192, 3072}
+INFO:hf-to-gguf:blk.31.ffn_up.weight,      torch.float16 --> Q8_0, shape = {3072, 16384}
+INFO:hf-to-gguf:blk.31.ffn_norm.weight,    torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:blk.31.attn_output.weight, torch.float16 --> Q8_0, shape = {3072, 3072}
+INFO:hf-to-gguf:blk.31.attn_qkv.weight,    torch.float16 --> Q8_0, shape = {3072, 9216}
+INFO:hf-to-gguf:output_norm.weight,        torch.float16 --> F32, shape = {3072}
+INFO:hf-to-gguf:Set meta model
+INFO:hf-to-gguf:Set model parameters
+INFO:hf-to-gguf:Set model quantization version
+INFO:hf-to-gguf:Set model tokenizer
+INFO:gguf.vocab:Setting special token type bos to 1
+INFO:gguf.vocab:Setting special token type eos to 32000
+INFO:gguf.vocab:Setting special token type unk to 0
+INFO:gguf.vocab:Setting special token type pad to 32000
+INFO:gguf.vocab:Setting add_bos_token to False
+INFO:gguf.vocab:Setting add_eos_token to False
+INFO:gguf.vocab:Setting chat_template to {% for message in messages %}{% if message['role'] == 'system' %}{{'<|system|>
+' + message['content'] + '<|end|>
+'}}{% elif message['role'] == 'user' %}{{'<|user|>
+'}}{% elif message['role'] == 'assistant' %}{{'<|assistant|>
+' + message['content'] + '<|end|>
+'}}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ '<|assistant|>
+' }}{% else %}{{ eos_token }}{% endif %}
+INFO:gguf.gguf_writer:Writing the following files:
+INFO:gguf.gguf_writer:novo_modelo.gguf: n_tensors = 195, total_size = 4.1G
+Writing: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4.06G/4.06G [00:50<00:00, 79.7Mbyte/s] 
+INFO:hf-to-gguf:Model successfully exported to novo_modelo.gguf
+
+Modelo convertido com sucesso para 'novo_modelo.gguf'.
+
+Processo de fine-tuning e conversão finalizado!
