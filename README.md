@@ -157,6 +157,10 @@ pip install huggingface_hub[hf_xet] transformers datasets bitsandbytes peft acce
 ```cmd
 ollama create Phi-3-mini-4k-instruct-APS -f Modelfile
 ```
+ou
+```cmd
+ollama create Phi-3-mini-4k-instruct-APS-2000 -f Modelfile
+```
 
 **ATENÇÃO:** Lembre-se de ajustar o arquivo `Modelfile` conforme os parâmetros do `.env`
 

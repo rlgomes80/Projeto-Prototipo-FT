@@ -14,8 +14,8 @@ TEMPLATE """{{- if .System }}<|system|>
 # Baseado no modelo pai "Phi-3-mini-4k-instruct".
 # Define o tamanho da janela de contexto usada para gerar o próximo token. (Padrão: 2048)
 # Isso determina a quantidade de texto (prompt + resposta) que o modelo pode "lembrar" em uma conversa.
-# Define o tamanho da janela de contexto para o máximo do modelo 128k (128 * 1024 = 131072)
-PARAMETER num_ctx 131072
+# Define o tamanho da janela de contexto para o máximo do modelo 128k (128 * 1024 = 131072) ou para o mínimo do modelo 4k (4 * 1024 = 4096)
+PARAMETER num_ctx 4096
 
 # Define os tokens que indicam ao modelo para parar de gerar texto.
 # O token "<|end|>" é o principal sinal de parada para o Phi-3.
@@ -26,13 +26,13 @@ PARAMETER stop "<|assistant|>"
 ### (Opcional) Ajuste os parâmetros de amostragem para controlar a criatividade vs. precisão
 
 # A temperatura do modelo. Aumentar a temperatura fará com que o modelo responda de forma mais criativa. (Padrão: 0,8) - Equivale ao TEMPERATURE
-PARAMETER temperature 0.2
+PARAMETER temperature 0.5
 
 # Reduz a probabilidade de gerar respostas sem sentido. Um valor mais alto (por exemplo, 100) resultará em respostas mais diversas, enquanto um valor mais baixo (por exemplo, 10) será mais conservador. (Padrão: 40) - Equivale ao K_PRIMEIROS
-PARAMETER top_k 3
+PARAMETER top_k 50
 
 # Funciona em conjunto com o top-k. Um valor mais alto (por exemplo, 0,95) resultará em um texto mais diverso, enquanto um valor mais baixo (por exemplo, 0,5) gerará um texto mais focado e conservador. (Padrão: 0,9) - Equivale ao SCORE_THRESHOLD
-PARAMETER top_p 0.4
+PARAMETER top_p 0.5
 
 # Alternativa ao top_p, com o objetivo de garantir um equilíbrio entre qualidade e variedade. O parâmetro p representa a probabilidade mínima de um token ser considerado, em relação à probabilidade do token mais provável. Por exemplo, com p = 0,05 e o token mais provável tendo uma probabilidade de 0,9, logits com valor inferior a 0,045 são filtrados. (Padrão: 0,0) - Equivale ao LAMBDA_MULT
 PARAMETER top_p 0.5
