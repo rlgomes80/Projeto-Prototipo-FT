@@ -1,3 +1,6 @@
+docs/
+site/
+
 llama.cpp/
 output_hf_model/
 output_hf_model-final/

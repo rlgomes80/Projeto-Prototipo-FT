@@ -179,12 +179,6 @@ ollama create Phi-3-mini-4k-instruct-APS-2000 -f Modelfile
 - Integração com prontuários eletrônicos
 - Sistemas RAG para consulta de diretrizes clínicas
 
-## Suporte
-
-Para questões técnicas ou suporte:
-- Entre em contato com o autor através dos canais oficiais
-- Consulte a documentação das bibliotecas utilizadas
-
 ---
 
 **Nota de Responsabilidade**: Este projeto destina-se exclusivamente a fins educacionais e de pesquisa. Para uso em ambiente clínico real, é necessária validação adicional e conformidade com regulamentações sanitárias aplicáveis.
